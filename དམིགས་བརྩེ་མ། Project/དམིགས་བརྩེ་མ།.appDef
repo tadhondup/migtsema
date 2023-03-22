@@ -1,0 +1,2930 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app-definition type="RAB" program-version="10.2">
+  <project-name>དམིགས་བརྩེ་མ།</project-name>
+  <project-description></project-description>
+
+  <app-name lang="default">དམིགས་བརྩེ་མ།</app-name>
+  <apk-filename append-version="true">migtsema.org.apk</apk-filename>
+  <package>migtsema.org</package>
+  <version code="1" name="1.0"/>
+  <multiple-apks value="false"/>
+  <android-sdk min="16"/>
+  <install-location value="preferExternal"/>
+  <ipa-filename append-version="true"></ipa-filename>
+  <ipa-version build="1" name="1.0"/>
+  <ipa-asset-filename></ipa-asset-filename>
+  <ipa-container-url></ipa-container-url>
+  <ipa-app-type>dedicated</ipa-app-type>
+  <ipa-container-audio>false</ipa-container-audio>
+
+  <signing>
+    <keystore>C:\Users\drong\OneDrive\Documents\App Builder\keystore\keystore1.keystore</keystore>
+    <keystore-password>kYPshlpnzpI=</keystore-password>
+    <alias>key1</alias>
+    <alias-password>kYPshlpnzpI=</alias-password>
+  </signing>
+
+  <publishing mode="manual">
+  </publishing>
+
+  <about enabled="true">
+    <filename>about.txt</filename>
+  </about>
+
+  <analytics enabled="false">
+  </analytics>
+
+  <audio-sources>
+    <audio-source id="a1" type="assets" default="true">
+      <name>Source 1</name>
+    </audio-source>
+  </audio-sources>
+
+  <audio-files>
+    <audio>
+      <filename src="a1" len="1698" size="41377">C:\github\migtsema\audios\migtsema03.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="1489" size="36361">C:\github\migtsema\audios\migtsema04.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="1698" size="41377">C:\github\migtsema\audios\migtsema05.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="1620" size="39496">C:\github\migtsema\audios\migtsema06.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="1672" size="40929">C:\github\migtsema\audios\migtsema07.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="1698" size="41556">C:\github\migtsema\audios\migtsema08.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="1672" size="40929">C:\github\migtsema\audios\migtsema09.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="2116" size="51587">C:\github\migtsema\audios\migtsema10.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="1907" size="46571">C:\github\migtsema\audios\migtsema11.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="1855" size="45317">C:\github\migtsema\audios\migtsema12.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="1802" size="44063">C:\github\migtsema\audios\migtsema13.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="1985" size="48452">C:\github\migtsema\audios\migtsema14.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="1724" size="42183">C:\github\migtsema\audios\migtsema15.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="1463" size="35913">C:\github\migtsema\audios\migtsema16.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="2220" size="54094">C:\github\migtsema\audios\migtsema17.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="2011" size="49079">C:\github\migtsema\audios\migtsema18.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="1907" size="46571">C:\github\migtsema\audios\migtsema19.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="2116" size="51587">C:\github\migtsema\audios\migtsema20.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="1567" size="38421">C:\github\migtsema\audios\migtsema21.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="1776" size="43436">C:\github\migtsema\audios\migtsema22.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="4153" size="100488">C:\github\migtsema\audios\migtsema23.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="3318" size="80426">C:\github\migtsema\audios\migtsema24.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="3500" size="84814">C:\github\migtsema\audios\migtsema25.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="2978" size="72276">C:\github\migtsema\audios\migtsema26.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="2952" size="71649">C:\github\migtsema\audios\migtsema27.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="6635" size="159868">C:\github\migtsema\audios\migtsema28.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="5512" size="132910">C:\github\migtsema\audios\migtsema29.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="6348" size="152972">C:\github\migtsema\audios\migtsema30.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="8020" size="193096">C:\github\migtsema\audios\migtsema31.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="6087" size="146702">C:\github\migtsema\audios\migtsema32.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="6452" size="155479">C:\github\migtsema\audios\migtsema33.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="4859" size="117236">C:\github\migtsema\audios\migtsema34.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="8594" size="206888">C:\github\migtsema\audios\migtsema35.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="7471" size="179930">C:\github\migtsema\audios\migtsema36.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="4493" size="108459">C:\github\migtsema\audios\migtsema37.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="6818" size="164257">C:\github\migtsema\audios\migtsema38.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="7837" size="188707">C:\github\migtsema\audios\migtsema39.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="6269" size="151091">C:\github\migtsema\audios\migtsema40.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="5512" size="132910">C:\github\migtsema\audios\migtsema41.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="6635" size="159868">C:\github\migtsema\audios\migtsema42.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="6348" size="152972">C:\github\migtsema\audios\migtsema43.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="5878" size="141687">C:\github\migtsema\audios\migtsema44.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="6531" size="157360">C:\github\migtsema\audios\migtsema45.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="4676" size="112848">C:\github\migtsema\audios\migtsema46.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="8934" size="215039">C:\github\migtsema\audios\migtsema47.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="7889" size="190140">C:\github\migtsema\audios\migtsema48.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="7811" size="188259">C:\github\migtsema\audios\migtsema49.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="7993" size="192648">C:\github\migtsema\audios\migtsema50.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="8229" size="198290">C:\github\migtsema\audios\migtsema51.mp3</filename>
+    </audio>
+    <audio>
+      <filename src="a1" len="7967" size="192021">C:\github\migtsema\audios\migtsema52.mp3</filename>
+    </audio>
+  </audio-files>
+
+  <deep-linking enabled="false">
+  </deep-linking>
+
+  <expiry type="none">
+    <filename>expiry.txt</filename>
+  </expiry>
+
+  <features type="main">
+    <feature name="app-layout-direction" value="ltr"/>
+    <feature name="search" value="true"/>
+    <feature name="search-input-buttons" value="true"/>
+    <feature name="search-whole-words-show" value="true"/>
+    <feature name="search-whole-words-default" value="true"/>
+    <feature name="search-accents-show" value="false"/>
+    <feature name="search-accents-default" value="false"/>
+    <feature name="search-accents-to-remove" value="\u0300 \u0301 \u0302 á&gt;a à&gt;a è&gt;e é&gt;e"/>
+    <feature name="editor" value="false"/>
+    <feature name="editor-folder" value="Scripture Editor"/>
+    <feature name="start-at-reference" value=""/>
+    <feature name="splash-screen" value="true"/>
+    <feature name="splash-screen-duration" value="3000"/>
+    <feature name="splash-screen-ios" value="false"/>
+    <feature name="splash-screen-duration-ios" value="800"/>
+    <feature name="annotation-bookmarks" value="false"/>
+    <feature name="annotation-notes" value="false"/>
+    <feature name="annotation-highlights" value="false"/>
+    <feature name="annotation-share-email" value=""/>
+    <feature name="annotation-share-subject" value=""/>
+    <feature name="annotation-max-select" value="20"/>
+    <feature name="history" value="false"/>
+    <feature name="book-select" value="none"/>
+    <feature name="book-group-titles" value="true"/>
+    <feature name="book-show-glossary" value="false"/>
+    <feature name="book-swipe-between-books" value="false"/>
+    <feature name="pinch-zoom" value="true"/>
+    <feature name="text-size-min" value="10"/>
+    <feature name="text-size-max" value="60"/>
+    <feature name="full-screen-double-tap" value="false"/>
+    <feature name="text-font-size-slider" value="true"/>
+    <feature name="text-line-height-slider" value="true"/>
+    <feature name="audio-allow-turn-on-off" value="true"/>
+    <feature name="audio-turn-on-at-startup" value="false"/>
+    <feature name="audio-phrase-end-chars" value=". ? ! : ; ,"/>
+    <feature name="audio-goto-next-chapter" value="true"/>
+    <feature name="audio-goto-next-book" value="false"/>
+    <feature name="audio-pause-on-phone-call" value="true"/>
+    <feature name="audio-search-all" value="true"/>
+    <feature name="audio-no-media-file" value="false"/>
+    <feature name="audio-seekbar-style" value="if-no-timing-info"/>
+    <feature name="audio-highlight-phrase" value="true"/>
+    <feature name="audio-speed" value="1.0"/>
+    <feature name="audio-access-method" value="download"/>
+    <feature name="audio-download-mode" value="prompt"/>
+    <feature name="audio-play-button-size" value="normal"/>
+    <feature name="audio-play-button-style" value="arrow"/>
+    <feature name="audio-repeat-mode-button" value="true"/>
+    <feature name="audio-repeat-mode-hint" value="true"/>
+    <feature name="audio-repeat-selection-button" value="true"/>
+    <feature name="audio-repeat-selection-wait-time" value="2000"/>
+    <feature name="text-select-play-audio" value="false"/>
+    <feature name="video-allow-fullscreen" value="true"/>
+    <feature name="video-show-titles" value="true"/>
+    <feature name="video-full-screen-width" value="true"/>
+    <feature name="video-youtube-related-same-channel" value="true"/>
+    <feature name="show-chapter-numbers" value="true"/>
+    <feature name="show-verse-numbers" value="false"/>
+    <feature name="chapter-number-format" value="none"/>
+    <feature name="verse-layout" value="paragraphs"/>
+    <feature name="wj-enabled" value="false"/>
+    <feature name="show-red-letters" value="true"/>
+    <feature name="show-glossary-words" value="true"/>
+    <feature name="show-footnotes" value="true"/>
+    <feature name="show-cross-refs" value="true"/>
+    <feature name="show-illustrations" value="true"/>
+    <feature name="resize-illustrations" value="true"/>
+    <feature name="resize-illustrations-width" value="300"/>
+    <feature name="backgrounds-crop" value="true"/>
+    <feature name="backgrounds-resize" value="true"/>
+    <feature name="backgrounds-resize-width" value="1080"/>
+    <feature name="scripture-refs-display" value="popup"/>
+    <feature name="show-chapter-number-on-app-bar" value="false"/>
+    <feature name="show-chapter-selector" value="false"/>
+    <feature name="show-chapter-selector-after-book" value="false"/>
+    <feature name="show-verse-selector" value="false"/>
+    <feature name="display-images-in-bible-text" value="normal"/>
+    <feature name="display-videos-in-bible-text" value="normal"/>
+    <feature name="hide-empty-verses" value="false"/>
+    <feature name="hide-empty-chapters" value="true"/>
+    <feature name="hide-verse-number-1" value="true"/>
+    <feature name="footnote-caller-type" value="default"/>
+    <feature name="footnote-caller-symbol" value=""/>
+    <feature name="crossref-caller-type" value="default"/>
+    <feature name="crossref-caller-symbol" value=""/>
+    <feature name="verse-of-the-day" value="false"/>
+    <feature name="verse-of-the-day-default" value="false"/>
+    <feature name="verse-of-the-day-time" value="12:00"/>
+    <feature name="verse-of-the-day-christmas-date" value="default"/>
+    <feature name="verse-of-the-day-easter-date" value="western"/>
+    <feature name="verse-of-the-day-book-collection" value=""/>
+    <feature name="verse-of-the-day-style" value="default"/>
+    <feature name="daily-reminder" value="false"/>
+    <feature name="daily-reminder-default" value="false"/>
+    <feature name="daily-reminder-time" value="07:30"/>
+    <feature name="text-on-image" value="false"/>
+    <feature name="text-on-image-video" value="false"/>
+    <feature name="text-on-image-watermark-width" value="20"/>
+    <feature name="text-on-image-watermark-margin" value="1"/>
+    <feature name="text-on-image-watermark-position" value="bottom-right"/>
+    <feature name="layout-config-change-nav-drawer-menu" value="true"/>
+    <feature name="layout-config-change-toolbar-button" value="true"/>
+    <feature name="layout-config-change-viewer-button" value="true"/>
+    <feature name="layout-config-first-launch" value="false"/>
+    <feature name="settings-app-layout-direction" value="true"/>
+    <feature name="settings-book-selection" value="true"/>
+    <feature name="settings-interface-language" value="true"/>
+    <feature name="settings-red-letters" value="false"/>
+    <feature name="settings-display-images-in-bible-text" value="true"/>
+    <feature name="settings-display-videos-in-bible-text" value="true"/>
+    <feature name="settings-show-border" value="true"/>
+    <feature name="settings-verse-numbers" value="false"/>
+    <feature name="settings-verse-layout" value="false"/>
+    <feature name="settings-verse-selection" value="false"/>
+    <feature name="settings-glossary-links" value="true"/>
+    <feature name="settings-audio-highlight-phrase" value="true"/>
+    <feature name="settings-audio-speed" value="true"/>
+    <feature name="settings-audio-download-mode" value="true"/>
+    <feature name="settings-audio-access-method" value="true"/>
+    <feature name="settings-keep-screen-on" value="true"/>
+    <feature name="settings-share-usage-data" value="true"/>
+    <feature name="share-app-link" value="false"/>
+    <feature name="share-download-app-link" value="false"/>
+    <feature name="share-download-app-link-url" value=""/>
+    <feature name="share-apk-file" value="true"/>
+    <feature name="show-border" value="false"/>
+    <feature name="input-buttons" value=""/>
+  </features>
+
+  <firebase>
+
+    <features type="firebase">
+      <feature name="firebase-analytics" value="false"/>
+    </features>
+  </firebase>
+
+  <fonts>
+    <font-handling>
+      <viewer type="default"/>
+      <grandroid enabled="true" versions="16,17,18"/>
+    </font-handling>
+
+    <font family="font1">
+      <font-name>Jomolhari</font-name>
+      <display-name>Jomolhari</display-name>
+      <filename format="truetype">Jomolhari-alpha3c-0605331.ttf</filename>
+      <style-decl property="font-weight" value="normal"/>
+      <style-decl property="font-style" value="normal"/>
+    </font>
+  </fonts>
+
+  <color-scheme name="Royal Blue"/>
+
+  <color-themes>
+    <color-theme name="Normal" enabled="true" default="true"/>
+    <color-theme name="Sepia" enabled="true"/>
+    <color-theme name="Dark" enabled="true"/>
+  </color-themes>
+
+  <colors type="main">
+  </colors>
+
+  <styles>
+    <style name="div.pr" category="text">
+      <style-decl property="padding-left" value="0%"/>
+      <style-decl property="padding-right" value="0%"/>
+      <style-decl property="padding-top" value="12px"/>
+      <style-decl property="text-indent" value="0"/>
+      <style-decl property="text-align" value="center"/>
+    </style>
+    <style name="body.contents" category="text">
+      <style-decl property="font-size" value="20px"/>
+      <style-decl property="margin-left" value="1%"/>
+      <style-decl property="margin-right" value="3%"/>
+      <style-decl property="background-color" value="ContentsBackgroundColor"/>
+      <style-decl property="font-family" value="font1"/>
+    </style>
+    <style name="div.contents-image-block" category="text">
+      <style-decl property="box-sizing" value="border-box"/>
+      <style-decl property="margin-right" value="12px"/>
+      <style-decl property="width" value="40%"/>
+      <style-decl property="height" value="auto"/>
+      <style-decl property="float" value="left"/>
+      <style-decl property="overflow" value="hidden"/>
+    </style>
+  </styles>
+
+  <traits>
+    <trait name="has-audio" value="true"/>
+    <trait name="has-multiple-books" value="true"/>
+    <trait name="has-sync-audio" value="true"/>
+  </traits>
+
+  <markers>
+  </markers>
+
+  <colors type="books">
+  </colors>
+
+  <books id="C01">
+    <book-collection-name>Main Collection</book-collection-name>
+
+    <features type="bc">
+      <feature name="show-scripture-refs" value="true"/>
+      <feature name="ref-chapter-verse-separator" value=":"/>
+      <feature name="ref-verse-range-separator" value="-"/>
+      <feature name="ref-verse-list-separator" value=","/>
+      <feature name="ref-chapter-range-separator" value="—"/>
+      <feature name="ref-chapter-list-separator" value=";"/>
+      <feature name="ref-extra-material" value=""/>
+      <feature name="ref-parse-introductions" value="false"/>
+      <feature name="ref-parse-glossary" value="false"/>
+      <feature name="numerals-type" value="default"/>
+      <feature name="bc-allow-single-pane" value="true"/>
+      <feature name="bc-allow-copy-text" value="true"/>
+      <feature name="bc-allow-long-press-select" value="true"/>
+      <feature name="bc-allow-share-text" value="true"/>
+      <feature name="bc-allow-text-on-image" value="true"/>
+      <feature name="bc-allow-text-on-image-edit-text" value="true"/>
+      <feature name="bc-allow-verse-of-the-day" value="true"/>
+      <feature name="bc-allow-share-audio" value="false"/>
+      <feature name="bc-allow-share-video" value="false"/>
+    </features>
+
+    <styles-info>
+      <text-font family="font1"/>
+      <text-size value="20"/>
+      <line-height value="120"/>
+      <text-direction value="LTR"/>
+      <numeral-system value="Default"/>
+      <verse-number-style value="default"/>
+
+      <styles>
+      </styles>
+    </styles-info>
+
+    <writing-system code="bo">
+      <display-names>
+        <form lang="default">Tibetan</form>
+      </display-names>
+    </writing-system>
+
+    <book id="B001" type="story">
+      <name>སྦྱོར་ཀློག</name>
+      <filename>migtsema.txt</filename>
+      <source>C:\github\migtsema\text files\migtsema.txt</source>
+
+      <audio-story-book mode="file-per-page"/>
+      <page num="1">
+        <audio>
+          <filename src="a1" len="17920" size="430706">C:\github\migtsema\audios\migtsema02.mp3</filename>
+          <timing-filename>migtsemalabel02.txt</timing-filename>
+        </audio>
+        <image-filename>migtsema04.jpg</image-filename>
+      </page>
+      <page num="2">
+        <image-filename>migtsema03.jpg</image-filename>
+      </page>
+      <page num="3">
+      </page>
+      <page num="4">
+      </page>
+      <page num="5">
+      </page>
+      <page num="6">
+      </page>
+      <page num="7">
+      </page>
+
+      <features type="book">
+        <feature name="lock-orientation" value="none"/>
+      </features>
+    </book>
+
+    <book id="B002" type="quiz">
+      <name></name>
+      <filename>migtsema03.txt</filename>
+      <source>C:\github\migtsema\text files\migtsema03.txt</source>
+    </book>
+
+    <book id="B003" type="story">
+      <name>བསྡོམས་ཀློག</name>
+      <filename>migtsema01.txt</filename>
+      <source>C:\github\migtsema\text files\migtsema01.txt</source>
+
+      <audio-story-book mode="file-per-page"/>
+      <page num="1">
+        <image-filename>migtsema04.jpg</image-filename>
+      </page>
+      <page num="2">
+        <image-filename>migtsema05.jpg</image-filename>
+      </page>
+      <page num="3">
+        <audio>
+          <filename src="a1" len="17920" size="430706">C:\github\migtsema\audios\migtsema02.mp3</filename>
+          <timing-filename>migtsemalabel02.txt</timing-filename>
+        </audio>
+        <image-filename>migtsema04.jpg</image-filename>
+      </page>
+
+      <features type="book">
+        <feature name="lock-orientation" value="none"/>
+      </features>
+    </book>
+
+    <book id="B004" type="quiz">
+      <name></name>
+      <filename>migtsema04.txt</filename>
+      <source>C:\github\migtsema\text files\migtsema04.txt</source>
+    </book>
+
+    <book id="B005" type="story">
+      <name>དབྱངས་གྱེར།</name>
+      <filename>migtsema02.txt</filename>
+      <source>C:\github\migtsema\text files\migtsema02.txt</source>
+
+      <audio-story-book mode="file-per-page"/>
+      <page num="1">
+        <image-filename>migtsema34.jpg</image-filename>
+      </page>
+      <page num="2">
+        <audio>
+          <filename src="a1" len="70191" size="1685389">C:\github\migtsema\audios\migtsema01.mp3</filename>
+          <timing-filename>migtsemalabel01.txt</timing-filename>
+        </audio>
+        <image-filename>migtsema35.jpg</image-filename>
+      </page>
+      <page num="3">
+        <audio>
+          <filename src="a1" len="67128" size="1611692">C:\github\migtsema\audios\migtsema53.mp3</filename>
+          <timing-filename>migtsemalabel03.txt</timing-filename>
+        </audio>
+        <image-filename>migtsema32.jpg</image-filename>
+      </page>
+
+      <features type="book">
+        <feature name="lock-orientation" value="none"/>
+      </features>
+    </book>
+
+    <book id="B006" type="quiz">
+      <name></name>
+      <filename>migtsema05.txt</filename>
+      <source>C:\github\migtsema\text files\migtsema05.txt</source>
+    </book>
+  </books>
+
+  <features type="epub">
+    <feature name="epub-toc-book-names" value="true"/>
+    <feature name="epub-toc-chapter-numbers" value="true"/>
+    <feature name="epub-toc-section-headings" value="true"/>
+  </features>
+
+  <contents-filename>xzHQggk67A</contents-filename>
+
+  <layouts default="single">
+    <layout mode="single" enabled="true">
+    </layout>
+    <layout mode="two" enabled="true">
+
+      <features type="layout">
+        <feature name="link" value="true"/>
+        <feature name="size-portrait" value="60"/>
+        <feature name="size-landscape" value="60"/>
+      </features>
+    </layout>
+    <layout mode="verse-by-verse" enabled="true">
+    </layout>
+  </layouts>
+
+  <security mode="any">
+
+    <features>
+      <feature name="access-code-length" value="8"/>
+      <feature name="access-code-algorithm" value="C"/>
+      <feature name="require-internet" value="false"/>
+      <feature name="calc-code" value=""/>
+    </features>
+    <pin>yOvE722gfyM=</pin>
+  </security>
+
+  <interface-languages>
+    <trait name="use-system-language" value="false"/>
+    <writing-systems>
+      <writing-system code="en" type="interface">
+        <display-names>
+          <form lang="en">English</form>
+          <form lang="fr">Anglais</form>
+          <form lang="es">Inglés</form>
+          <form lang="tr">İngilizce</form>
+          <form lang="id">Inggris</form>
+          <form lang="hin">अंग्रेजी</form>
+          <form lang="mal">ഇംഗ്ലീഷ്</form>
+          <form lang="pt">Inglês</form>
+          <form lang="zh">英文</form>
+          <form lang="vi">Tiếng Anh</form>
+          <form lang="fa">انگلیسی</form>
+          <form lang="ru">Английский</form>
+          <form lang="de">Englisch</form>
+          <form lang="az">İngilis dili</form>
+          <form lang="ar">الأنجليزية</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="fr" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">French</form>
+          <form lang="fr">Français</form>
+          <form lang="es">Francés</form>
+          <form lang="tr">Fransızca</form>
+          <form lang="id">Perancis</form>
+          <form lang="hin">फ्रांसीसी</form>
+          <form lang="mal">ഫ്രഞ്ച്</form>
+          <form lang="pt">Francês</form>
+          <form lang="fa">فرانسوی</form>
+          <form lang="ru">Французский</form>
+          <form lang="de">Französisch</form>
+          <form lang="az">Fransız dili</form>
+          <form lang="ar">الفرنسية</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="de" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">German</form>
+          <form lang="fr">Allemand</form>
+          <form lang="de">Deutsch</form>
+          <form lang="es">Alemán</form>
+          <form lang="id">Jerman</form>
+          <form lang="az">Alman dili</form>
+          <form lang="ru">Немецкий</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="es" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Spanish</form>
+          <form lang="fr">Espagnol</form>
+          <form lang="es">Español</form>
+          <form lang="tr">İspanyolca</form>
+          <form lang="id">Spanyol</form>
+          <form lang="hin">स्पेनिश</form>
+          <form lang="mal">സ്പാനിഷ്‌</form>
+          <form lang="pt">Espanhol</form>
+          <form lang="fa">اسپانیایی</form>
+          <form lang="ru">Испанский</form>
+          <form lang="de">Spanisch</form>
+          <form lang="az">İspan dili</form>
+          <form lang="ar">إسبانية</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="pt" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Portuguese</form>
+          <form lang="fr">Portugais</form>
+          <form lang="es">Portugués</form>
+          <form lang="tr">Portekizce</form>
+          <form lang="id">Portugis</form>
+          <form lang="hin">पुर्तगाली</form>
+          <form lang="mal">പോര്‍ച്ചുഗീസ്</form>
+          <form lang="pt">Português</form>
+          <form lang="fa">پرتقالی</form>
+          <form lang="ru">Португальский</form>
+          <form lang="de">Portugiesisch</form>
+          <form lang="az">Portuqaliya dili</form>
+          <form lang="ar">برتغالية</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="ru" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Russian</form>
+          <form lang="fr">Russe</form>
+          <form lang="es">Ruso</form>
+          <form lang="tr">Rusça</form>
+          <form lang="id">Rusia</form>
+          <form lang="hin">रूसी</form>
+          <form lang="mal">റഷ്യന്‍</form>
+          <form lang="pt">Russo</form>
+          <form lang="fa">روسی</form>
+          <form lang="ru">Русский</form>
+          <form lang="de">Russisch</form>
+          <form lang="az">Rus dili</form>
+          <form lang="ar">روسية</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="ar" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Arabic</form>
+          <form lang="fr">Arabe</form>
+          <form lang="ar">العربية</form>
+          <form lang="es">Árabe</form>
+          <form lang="ru">Арабский</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="RTL"/>
+      </writing-system>
+
+      <writing-system code="uk" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Ukrainian</form>
+          <form lang="fr">Ukrainien</form>
+          <form lang="tr">Ukraynaca</form>
+          <form lang="id">Ukraina</form>
+          <form lang="hin">यूक्रेनी</form>
+          <form lang="mal">ഉക്രേനിയന്‍</form>
+          <form lang="es">Ucraniano</form>
+          <form lang="pt">Ucraniano</form>
+          <form lang="fa">اوکرانی</form>
+          <form lang="ru">Украинский</form>
+          <form lang="de">Ukrainisch</form>
+          <form lang="az">Ukrayna dili</form>
+          <form lang="ar">أكرانية</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="tr" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Turkish</form>
+          <form lang="es">Turco</form>
+          <form lang="fr">Turc</form>
+          <form lang="tr">Türkçe</form>
+          <form lang="pt">Turco</form>
+          <form lang="fa">ترکی</form>
+          <form lang="ru">Турецкий</form>
+          <form lang="de">Türkisch</form>
+          <form lang="id">Turki</form>
+          <form lang="az">Türk dili</form>
+          <form lang="ar">تركية</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="fa" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Farsi</form>
+          <form lang="fr">Farsi</form>
+          <form lang="es">Farsi</form>
+          <form lang="pt">Farsi</form>
+          <form lang="de">Farsi</form>
+          <form lang="id">Farsi</form>
+          <form lang="az">Fars dili</form>
+          <form lang="ar">فارسية</form>
+          <form lang="ru">Фарси</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="id" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Indonesian</form>
+          <form lang="fr">Indonesien</form>
+          <form lang="es">Indonesio</form>
+          <form lang="tr">Endonezyaca</form>
+          <form lang="id">Bahasa Indonesia</form>
+          <form lang="hin">इन्डोनेशियाई</form>
+          <form lang="mal">ഇന്തോനേഷ്യന്‍</form>
+          <form lang="pt">Indonésio</form>
+          <form lang="fa">اندونزی</form>
+          <form lang="ru">Индонезийский</form>
+          <form lang="de">Indonesisch</form>
+          <form lang="az">İndoneziya dili</form>
+          <form lang="ar">اندونيسية</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="zh" type="interface">
+        <display-names>
+          <form lang="en">Chinese (Simplified)</form>
+          <form lang="fr">Chinois (simplifié)</form>
+          <form lang="tr">Çince (Basitleştirilmiş)</form>
+          <form lang="id">Cina</form>
+          <form lang="hin">चीनी</form>
+          <form lang="mal">ചൈനീസ്</form>
+          <form lang="es">Chino (Simplificado)</form>
+          <form lang="pt">Chinês (Simplificado)</form>
+          <form lang="zh">中文（简体)</form>
+          <form lang="fa">چینی( ساده شده )</form>
+          <form lang="ru">Китайский</form>
+          <form lang="de">Chinesisch (Kurzzeichen)</form>
+          <form lang="az">Çin (Sadələşdirilmiş) dili</form>
+          <form lang="ar">صينية مبسطة</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="vi" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Vietnamese</form>
+          <form lang="fr">Vietnamien</form>
+          <form lang="es">Vietnamita</form>
+          <form lang="pt">Vietnamita</form>
+          <form lang="de">Vietnamesisch</form>
+          <form lang="id">Vietnam</form>
+          <form lang="az">Vyetnam dili</form>
+          <form lang="ar">فيتنامية</form>
+          <form lang="vi">ngôn ngữ tiếng Việt</form>
+          <form lang="ru">Вьетнамский</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="hin" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Hindi</form>
+          <form lang="fr">Hindi</form>
+          <form lang="fa">هندی</form>
+          <form lang="ru">Хинди</form>
+          <form lang="es">Hindi</form>
+          <form lang="pt">Hindi</form>
+          <form lang="de">Hindi</form>
+          <form lang="id">Hindi</form>
+          <form lang="az">Hind dili</form>
+          <form lang="ar">هندية</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="mal" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Malayalam</form>
+          <form lang="fr">Malayalam</form>
+          <form lang="fa">مالایالام</form>
+          <form lang="ru">Малаялам</form>
+          <form lang="es">Malabar</form>
+          <form lang="pt">Malaio</form>
+          <form lang="de">Malayalam</form>
+          <form lang="id">Melayu</form>
+          <form lang="az">Malayalam dili</form>
+          <form lang="ar">ملايالم</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="az" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Azerbaijani</form>
+          <form lang="fr">Azéri</form>
+          <form lang="hi">आज़रबाइजानी</form>
+          <form lang="te">అజర్బైజాని</form>
+          <form lang="de">Aserbaidschanisch</form>
+          <form lang="fa">آذری</form>
+          <form lang="ko">아제르바이잔어</form>
+          <form lang="es">Azerbaiyán</form>
+          <form lang="ru">Азербайджанский</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="ms" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Bahasa Melayu</form>
+          <form lang="fr">Bahasa Melayu</form>
+          <form lang="es">Bahasa Melayu</form>
+          <form lang="ru">Малайский</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="bo" type="interface">
+        <display-names>
+          <form lang="en">Tibetan</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="font-relative-size" value="90"/>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+    </writing-systems>
+  </interface-languages>
+
+  <translation-mappings default-lang="bo">
+    <translation-mapping id="Menu_Contents">
+      <translation lang="en">Contents</translation>
+      <translation lang="fr">Contenu</translation>
+      <translation lang="tr">İçindekiler</translation>
+      <translation lang="id">Isi</translation>
+      <translation lang="mal">ഉള്ളടക്കം</translation>
+      <translation lang="hin">अंतर्वस्तु</translation>
+      <translation lang="es">Contenido</translation>
+      <translation lang="pt">Conteúdo</translation>
+      <translation lang="zh">目录</translation>
+      <translation lang="vi">Nội dung</translation>
+      <translation lang="fa">فهرست</translation>
+      <translation lang="ru">Содержание</translation>
+      <translation lang="de">Inhalt</translation>
+      <translation lang="az">Mündəricat</translation>
+      <translation lang="ar">المحتوى</translation>
+      <translation lang="ms">Kandungan</translation>
+      <translation lang="bo">དཀར་ཆག</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Search">
+      <translation lang="en">Search</translation>
+      <translation lang="fr">Rechercher</translation>
+      <translation lang="es">Buscar</translation>
+      <translation lang="pt">Pesquisar</translation>
+      <translation lang="ru">Поиск</translation>
+      <translation lang="uk">Пошук</translation>
+      <translation lang="tr">Arama</translation>
+      <translation lang="id">Pencarian</translation>
+      <translation lang="zh">搜索</translation>
+      <translation lang="hin">खोज</translation>
+      <translation lang="mal">തിരയുക</translation>
+      <translation lang="vi">Tìm kiếm</translation>
+      <translation lang="fa">جستجو</translation>
+      <translation lang="de">Suche</translation>
+      <translation lang="az">Axtarış</translation>
+      <translation lang="ar">البحث</translation>
+      <translation lang="ms">Carian</translation>
+      <translation lang="bo">འཚོལ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Settings">
+      <translation lang="en">Settings</translation>
+      <translation lang="fr">Paramètres</translation>
+      <translation lang="es">Configuraciones</translation>
+      <translation lang="pt">Configurações</translation>
+      <translation lang="ru">Настройки</translation>
+      <translation lang="uk">Налаштування</translation>
+      <translation lang="tr">Ayarlar</translation>
+      <translation lang="zh">设置</translation>
+      <translation lang="id">Pengaturan</translation>
+      <translation lang="hin">सेटिंग्स</translation>
+      <translation lang="mal">ക്രമീകരണങ്ങള്‍</translation>
+      <translation lang="vi">Cài đặt</translation>
+      <translation lang="fa">تنظیمات</translation>
+      <translation lang="de">Einstellungen</translation>
+      <translation lang="az">Parametrlər</translation>
+      <translation lang="ar">إعدادات</translation>
+      <translation lang="ms">Tetapan</translation>
+      <translation lang="bo">སྒྲིག་འགོད།</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_About">
+      <translation lang="en">About</translation>
+      <translation lang="fr">A propos</translation>
+      <translation lang="es">Acerca de</translation>
+      <translation lang="pt">Sobre</translation>
+      <translation lang="ru">О приложении</translation>
+      <translation lang="uk">Про програму</translation>
+      <translation lang="tr">Hakkında</translation>
+      <translation lang="id">Seputar</translation>
+      <translation lang="zh">关于</translation>
+      <translation lang="ms">Tentang</translation>
+      <translation lang="vi">về chúng tôi</translation>
+      <translation lang="bo">འདིའི་སྐོར།</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Text_Appearance">
+      <translation lang="en">Text Appearance</translation>
+      <translation lang="fr">Taille de police</translation>
+      <translation lang="es">Tamaño del texto</translation>
+      <translation lang="pt">Aparência do Texto</translation>
+      <translation lang="ru">Внешний вид текста</translation>
+      <translation lang="uk">Розмір тексту</translation>
+      <translation lang="tr">Metin Görünüşü</translation>
+      <translation lang="id">Ukuran teks</translation>
+      <translation lang="zh">文字大小</translation>
+      <translation lang="hin">दिखावट</translation>
+      <translation lang="mal">അക്ഷര ക്രമീകരണം</translation>
+      <translation lang="vi">Hình thức văn bản</translation>
+      <translation lang="fa">طرح متن</translation>
+      <translation lang="de">Texteinstellungen</translation>
+      <translation lang="az">Mətn Görüntü</translation>
+      <translation lang="ar">مظهر الصفحات والنص</translation>
+      <translation lang="ms">Penampilan teks</translation>
+      <translation lang="bo">ཡིག་གཟུགས་སྒྲིག་ཆས།</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Share_App">
+      <translation lang="en">Share App</translation>
+      <translation lang="fr">Partager application</translation>
+      <translation lang="es">Compartir aplicación</translation>
+      <translation lang="pt">Compartilhar Aplicativo</translation>
+      <translation lang="tr">Uygulamayı Paylaş</translation>
+      <translation lang="id">Bagikan aplikasi</translation>
+      <translation lang="hin">ऐप को लागू करना</translation>
+      <translation lang="mal">ആപ്പ് ഷെയര്‍ ചെയ്യുക</translation>
+      <translation lang="zh">共享应用程序</translation>
+      <translation lang="vi">Chia sẻ App</translation>
+      <translation lang="fa">اشتراک گذاری نرم افزار</translation>
+      <translation lang="ru">Поделиться приложением</translation>
+      <translation lang="de">App weitergeben</translation>
+      <translation lang="az">Tətbiqi paylaş</translation>
+      <translation lang="ar">إشتراك التطبيقات</translation>
+      <translation lang="ms">Kangsi App</translation>
+      <translation lang="bo">མཉེན་ཆས་བརྒྱུད་སྐུར།</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Downloads">
+      <translation lang="en">Downloads</translation>
+      <translation lang="fr">Téléchargements</translation>
+      <translation lang="es">Descargas</translation>
+      <translation lang="bo">ཕབ་ལེན།</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Edit">
+      <translation lang="en">Edit</translation>
+      <translation lang="fr">Editer</translation>
+      <translation lang="es">Editar</translation>
+      <translation lang="pt">Editar</translation>
+      <translation lang="ru">Редактировать</translation>
+      <translation lang="uk">Редаргувати</translation>
+      <translation lang="tr">Düzenle</translation>
+      <translation lang="id">Sunting</translation>
+      <translation lang="zh">编辑</translation>
+      <translation lang="mal">തിരുത്തുക</translation>
+      <translation lang="vi">Chỉnh sửa</translation>
+      <translation lang="fa">ویرایش</translation>
+      <translation lang="de">Bearbeiten</translation>
+      <translation lang="az">Redaktə</translation>
+      <translation lang="ar">التحرير</translation>
+      <translation lang="hi">सम्पादित</translation>
+      <translation lang="te">ఎడిట్</translation>
+      <translation lang="ko">편집</translation>
+      <translation lang="ms">Menyunting</translation>
+      <translation lang="bo">རྩོམ་སྒྲིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Users_Add">
+      <translation lang="en">Add User</translation>
+      <translation lang="fr">Ajouter utilisateur</translation>
+      <translation lang="pt">Adicionar Usuário</translation>
+      <translation lang="zh">添加用户</translation>
+      <translation lang="ru">Добавить пользователя</translation>
+      <translation lang="id">Menambah Pengguna</translation>
+      <translation lang="ar">إضافة مستخدم</translation>
+      <translation lang="es">Añadir usuario</translation>
+      <translation lang="bo">སྤྱོད་མཁན་སྣོན།</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Users_List">
+      <translation lang="en">Users</translation>
+      <translation lang="fr">Utilisateurs</translation>
+      <translation lang="pt">Usuários</translation>
+      <translation lang="zh">用户</translation>
+      <translation lang="ru">Пользователи</translation>
+      <translation lang="es">Usuarios</translation>
+      <translation lang="id">Pengguna</translation>
+      <translation lang="ar">المستخدمين</translation>
+      <translation lang="bo">སྤྱོད་མཁན།</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Home">
+      <translation lang="en">Home</translation>
+      <translation lang="fr">Accueil</translation>
+      <translation lang="tr">Ev</translation>
+      <translation lang="id">Beranda</translation>
+      <translation lang="mal">ഹോം</translation>
+      <translation lang="es">Bienvenido</translation>
+      <translation lang="pt">Página Inicial</translation>
+      <translation lang="zh">首页</translation>
+      <translation lang="vi">Trang chủ</translation>
+      <translation lang="fa">خانه</translation>
+      <translation lang="ru">Главная</translation>
+      <translation lang="de">Startseite</translation>
+      <translation lang="az">Başlanğıc</translation>
+      <translation lang="ar">إستقبال</translation>
+      <translation lang="hi">होम</translation>
+      <translation lang="te">హోమ్</translation>
+      <translation lang="ko">초기화면</translation>
+      <translation lang="ms">Muat Turun</translation>
+      <translation lang="bo">གཙོ་ངོས།</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Reset_Contents">
+      <translation lang="en">Reset Contents</translation>
+      <translation lang="fr">Réinitialiser le contenu</translation>
+      <translation lang="bo">ནང་དོན་བསྐྱར་སྒྲིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Item_Copy">
+      <translation lang="en">Copy</translation>
+      <translation lang="fr">Copier</translation>
+      <translation lang="es">Copiar</translation>
+      <translation lang="pt">Copiar</translation>
+      <translation lang="bo">ངོ་བཤུ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Item_Share">
+      <translation lang="en">Share</translation>
+      <translation lang="fr">Partager</translation>
+      <translation lang="es">Compartir</translation>
+      <translation lang="pt">Compartilhar</translation>
+      <translation lang="id">Bagikan</translation>
+      <translation lang="bo">བརྒྱུད་སྐུར།</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Item_Image">
+      <translation lang="en">Image</translation>
+      <translation lang="fr">Image</translation>
+      <translation lang="es">Imagen</translation>
+      <translation lang="pt">Imagem</translation>
+      <translation lang="bo">འདྲ་པར།</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_OK">
+      <translation lang="en">OK</translation>
+      <translation lang="fr">OK</translation>
+      <translation lang="es">OK</translation>
+      <translation lang="pt">OK</translation>
+      <translation lang="ru">OK</translation>
+      <translation lang="uk">OK</translation>
+      <translation lang="tr">Tamam</translation>
+      <translation lang="zh">行</translation>
+      <translation lang="id">OK</translation>
+      <translation lang="hin">ठीक</translation>
+      <translation lang="mal">ഓക്കേ</translation>
+      <translation lang="vi">OK</translation>
+      <translation lang="fa">موافق</translation>
+      <translation lang="de">OK</translation>
+      <translation lang="az">OK</translation>
+      <translation lang="ar">موافق</translation>
+      <translation lang="ms">OK</translation>
+      <translation lang="bo">འགྲིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Yes">
+      <translation lang="en">Yes</translation>
+      <translation lang="fr">Oui</translation>
+      <translation lang="es">Si</translation>
+      <translation lang="pt">Sim</translation>
+      <translation lang="ru">Да</translation>
+      <translation lang="uk">Так</translation>
+      <translation lang="tr">Evet</translation>
+      <translation lang="zh">是</translation>
+      <translation lang="id">Ya</translation>
+      <translation lang="hin">हाँ</translation>
+      <translation lang="mal">അതെ</translation>
+      <translation lang="vi">Đồng ý</translation>
+      <translation lang="fa">بله</translation>
+      <translation lang="de">Ja</translation>
+      <translation lang="az">Bəli</translation>
+      <translation lang="ar">نعم</translation>
+      <translation lang="ms">Ya</translation>
+      <translation lang="bo">འགྲིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_No">
+      <translation lang="en">No</translation>
+      <translation lang="fr">Non</translation>
+      <translation lang="es">No</translation>
+      <translation lang="pt">Não</translation>
+      <translation lang="ru">Нет</translation>
+      <translation lang="uk">Ні</translation>
+      <translation lang="tr">Hayır</translation>
+      <translation lang="zh">不是</translation>
+      <translation lang="id">Tidak</translation>
+      <translation lang="hin">नहीं</translation>
+      <translation lang="mal">അല്ല</translation>
+      <translation lang="vi">Không</translation>
+      <translation lang="fa">خیر</translation>
+      <translation lang="de">Nein</translation>
+      <translation lang="az">Xeyr</translation>
+      <translation lang="ar">لا</translation>
+      <translation lang="ms">Tidak</translation>
+      <translation lang="bo">མི་འགྲིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Close">
+      <translation lang="en">Close</translation>
+      <translation lang="fr">Fermer</translation>
+      <translation lang="es">Cerrar</translation>
+      <translation lang="pt">Fechar</translation>
+      <translation lang="ru">Закрыть</translation>
+      <translation lang="uk">Закрити</translation>
+      <translation lang="tr">Kapat</translation>
+      <translation lang="id">Tutup</translation>
+      <translation lang="zh">关闭</translation>
+      <translation lang="hin">बंद</translation>
+      <translation lang="mal">അടയ്ക്കുക</translation>
+      <translation lang="vi">Đóng</translation>
+      <translation lang="fa">بستن</translation>
+      <translation lang="de">Schließen</translation>
+      <translation lang="az">Bağla</translation>
+      <translation lang="ar">غلق</translation>
+      <translation lang="ms">Tutup</translation>
+      <translation lang="bo">ཁ་རྒྱོབ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Cancel">
+      <translation lang="en">Cancel</translation>
+      <translation lang="fr">Annuler</translation>
+      <translation lang="es">Cancelar</translation>
+      <translation lang="pt">Cancelar</translation>
+      <translation lang="ru">Отменить</translation>
+      <translation lang="uk">Скасувати</translation>
+      <translation lang="tr">İptal etmek</translation>
+      <translation lang="id">Batal</translation>
+      <translation lang="zh">取消</translation>
+      <translation lang="hin">निरस्त</translation>
+      <translation lang="mal">ക്യാന്‍സല്‍ ചെയ്യുക</translation>
+      <translation lang="vi">Hủy</translation>
+      <translation lang="fa">لغو کردن</translation>
+      <translation lang="de">Beenden</translation>
+      <translation lang="az">Ləğv et</translation>
+      <translation lang="ar">إلغاء</translation>
+      <translation lang="ms">Batal</translation>
+      <translation lang="bo">ཕྱིར་འཐེན།</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Share">
+      <translation lang="en">Share</translation>
+      <translation lang="fr">Partager</translation>
+      <translation lang="es">Compartir</translation>
+      <translation lang="pt">Compartilhar</translation>
+      <translation lang="bo">བརྒྱུད་སྐུར།</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Start">
+      <translation lang="en">Start</translation>
+      <translation lang="fr">Commencer</translation>
+      <translation lang="es">Iniciar</translation>
+      <translation lang="ms">Mula</translation>
+      <translation lang="ru">Начать</translation>
+      <translation lang="bo">འགོ་རྩོམ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Submit">
+      <translation lang="en">Submit</translation>
+      <translation lang="fr">Soumettre</translation>
+      <translation lang="tr">Gönder</translation>
+      <translation lang="id">Kirim</translation>
+      <translation lang="hin">प्रस्तुत</translation>
+      <translation lang="mal">സമർപ്പിക്കുക</translation>
+      <translation lang="es">Aceptar</translation>
+      <translation lang="pt">Enviar</translation>
+      <translation lang="zh">提交</translation>
+      <translation lang="vi">Gửi</translation>
+      <translation lang="fa">ارسال</translation>
+      <translation lang="ru">Отправить</translation>
+      <translation lang="de">Absenden</translation>
+      <translation lang="az">Təqdim et</translation>
+      <translation lang="ar">عرض</translation>
+      <translation lang="ms">Kemukakan</translation>
+      <translation lang="bo">འབུལ་སྤྲོད།</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Sign_Up">
+      <translation lang="en">Sign Up</translation>
+      <translation lang="fr">S&apos;inscrire</translation>
+      <translation lang="ms">Daftar</translation>
+      <translation lang="es">Inscríbete.</translation>
+      <translation lang="ru">Зарегистрироваться</translation>
+      <translation lang="bo">ཁ་བྱང་གསར་བཟོ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Skip">
+      <translation lang="en">Skip</translation>
+      <translation lang="fr">Sauter</translation>
+      <translation lang="es">Omitir</translation>
+      <translation lang="pt">Omitir</translation>
+      <translation lang="ru">Пропустить</translation>
+      <translation lang="bo">ཕར་མཆོང་།</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Audio_Play">
+      <translation lang="en">Play</translation>
+      <translation lang="bo">ཐོངས།</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Audio_Pause">
+      <translation lang="en">Pause</translation>
+      <translation lang="bo">ངང་འཐེན།</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Audio_Forward">
+      <translation lang="en">Forward</translation>
+      <translation lang="bo">མདུན་སྐྱོད།</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Audio_Back">
+      <translation lang="en">Back</translation>
+      <translation lang="bo">ཕྱིར་ལྡོག</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Audio_Forward_Section">
+      <translation lang="en">Forward Section</translation>
+      <translation lang="bo">མདུན་སྐྱོད་ཚན་པ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Audio_Back_Section">
+      <translation lang="en">Back Section</translation>
+      <translation lang="bo">ཕྱིར་ལྡོག་ཚན་པ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Date_Today">
+      <translation lang="en">Today</translation>
+      <translation lang="fr">Aujourd&apos;hui</translation>
+      <translation lang="es">Hoy</translation>
+      <translation lang="pt">Hoje</translation>
+      <translation lang="fa">امروز</translation>
+      <translation lang="ru">Сегодня</translation>
+      <translation lang="de">Heute</translation>
+      <translation lang="id">Hari ini</translation>
+      <translation lang="az">Bugün</translation>
+      <translation lang="ar">اليوم</translation>
+      <translation lang="ms">Hantar</translation>
+      <translation lang="bo">དེ་རིང་།</translation>
+    </translation-mapping>
+    <translation-mapping id="Date_Yesterday">
+      <translation lang="en">Yesterday</translation>
+      <translation lang="fr">Hier</translation>
+      <translation lang="es">Ayer</translation>
+      <translation lang="pt">Ontem</translation>
+      <translation lang="fa">دیروز</translation>
+      <translation lang="ru">Вчера</translation>
+      <translation lang="de">Gestern</translation>
+      <translation lang="id">Kemarin</translation>
+      <translation lang="az">Dünən</translation>
+      <translation lang="ar">الأمس</translation>
+      <translation lang="ms">Semalam</translation>
+      <translation lang="bo">ཁ་སང་།</translation>
+    </translation-mapping>
+    <translation-mapping id="Grandroid_Load_Fail">
+      <translation lang="en">Sorry, the text may not display correctly on this device.</translation>
+      <translation lang="fr">Désolé, le texte peut ne pas s&apos;afficher correctement sur cet appareil.</translation>
+      <translation lang="es">Lamentablemente el texto no puede mostrarse correctamente en este dispositivo.</translation>
+      <translation lang="pt">Sinto muito, mas o texto talvéz não exiba corretamente neste dispositivo.</translation>
+      <translation lang="ru">Извините, на этом устройстве текст может отображаться некорректно</translation>
+      <translation lang="uk">Вибачте, текст може відображатися некоректно на цьому пристрої</translation>
+      <translation lang="tr">Üzgünüz, metin bu cihazda doğru şekilde görüntülenmeyebilir.</translation>
+      <translation lang="zh">文本无法在此设备上正确地显示。</translation>
+      <translation lang="id">Maaf, mungkin teks tidak akan ditampilkan dengan benar pada alat ini.</translation>
+      <translation lang="hin">क्षमा करें, यह इस साधन पर सही तरीके से प्रदर्शित नहीं होगा।</translation>
+      <translation lang="mal">ക്ഷമിക്കണം, അക്ഷരങ്ങള്‍ ഈ ഉപകരണത്തിൽ ശരിയായി ദൃശ്യമാകില്ലായിരിക്കാം.</translation>
+      <translation lang="vi">Xin lỗi, bản văn có thể không hiển thị chính xác trên thiết bị này.</translation>
+      <translation lang="fa">متاسفم، امکان دارد این برنامه در دستگاه شما به درستی اجرا نشود</translation>
+      <translation lang="de">Verzeihung, eventuell wird der Text auf diesem Gerät nicht korrekt angezeigt.</translation>
+      <translation lang="az">Üzr istəyirik, mətn bu cihazda düzgün görünmür.</translation>
+      <translation lang="ar">عذرا،قد لا يتم عرض هذا النص بشكل صحيح في هذا الجهاز</translation>
+      <translation lang="ms">Maaf, mesej mungkin tidak dipaparkan dengan betul pada peranti ini.</translation>
+      <translation lang="bo">དགོངས་དག འདིར་སྒྲིག་ཆས་འདིའི་སྒང་ནས་དཔེ་ཆ་དེ་ཕལ་ཆེར་ཚད་ལྡན་ཞིག་སྟོན་ཐུབ་ས་མ་རེད།</translation>
+    </translation-mapping>
+    <translation-mapping id="Grandroid_Load_Fail_42_43_Intel">
+      <translation lang="en">Sorry, the text may not display correctly on Intel devices for Android 4.2 or 4.3.</translation>
+      <translation lang="fr">Désolé, le texte peut ne pas s&apos;afficher correctement sur les appareils Intel pour Android 4.2 ou 4.3.</translation>
+      <translation lang="es">Lamentablemente el texto no puede mostrarse correctamente en dispositivos Intel para Android 4.2 o 4.3.</translation>
+      <translation lang="pt">Sinto muito, mas o texto talvéz não exiba corretamente em dispositivos Intel com Android 4.2 ou 4.3.</translation>
+      <translation lang="ru">Извините, на устройствах на базе Intel + Android 4.2 или 4.3 текст может отображаться некорректно</translation>
+      <translation lang="uk">Вибачте, текст може відображатися некоректно на пристроях Intel під керуванням Android 4.2 або 4.3</translation>
+      <translation lang="tr">Üzgünüz, metin Android 4.2 veya 4.3 için Intel cihazlarda doğru görüntülenmeyebilir.</translation>
+      <translation lang="zh">文本无法为安卓4.2或4.3的英特尔设备上正确地显示。</translation>
+      <translation lang="id">Maaf, mungkin teks tidak akan ditampilkan dengan benar pada alat dengan CPU Intel dan Android 4.2/4.3.</translation>
+      <translation lang="hin">क्षमा करें, यह इस एंड्राइड 4.2 या 4.3 के लिए इंटेल के साधन पर ठीक से प्रदर्शित नहीं हो सकता है</translation>
+      <translation lang="mal">ക്ഷമിക്കണം, Android 4.2 അല്ലെങ്കിൽ 4.3 ഉള്ള ഇന്റൽ ഉപകരണങ്ങളിൽ അക്ഷരങ്ങള്‍ ശരിയായ രീതിയിൽ ദൃശ്യമാകില്ലായിരിക്കാം.</translation>
+      <translation lang="vi">Xin lỗi, bản văn có thể không hiển thị chính xác trên thiết bị Intel vì dùng Android 4.2 hoặc 4.3.</translation>
+      <translation lang="fa">متاسفم، امکان دارد این برنامه در دستگاه شما به درستی اجرا نشود</translation>
+      <translation lang="de">Verzeihung, eventuell wird der Text auf Intel Geräten mit Android 4.2 oder 4.3 nicht korrekt angezeigt.</translation>
+      <translation lang="az">Üzr istəyirik, mətn Android 4.2 və ya 4.3 üçün Intel cihazlarında düzgün görünmür.</translation>
+      <translation lang="ar">عذراً، يحتمل عدم ضهور النص بشكل سليم. عذرا،قد لا يتم عرض هذا النص بشكل صحيح على أجهزة انتل   لأندرويد 4.2 و 4.3</translation>
+      <translation lang="ms">Maaf, mesej mungkin tidak dipaparkan dengan betul pada peranti Intel untuk Android 4.2 atau 4.3.</translation>
+      <translation lang="bo">དགོངས་དག ཨིན་ཌོ་ 4.2 ཡང་ན་ 4.3 འདིའི་ནང་གི་Intel སྒྲིག་ཆས་འདིའི་སྒང་ནས་ཡིག་ཆ་དེ་ཚད་ལྡན་ཞིག་སྟོན་ཐུབ་ས་མ་རེད།</translation>
+    </translation-mapping>
+    <translation-mapping id="Grandroid_Load_Fail_42_43_Other">
+      <translation lang="en">Sorry, the text may not display correctly on this device for Android 4.2 or 4.3.</translation>
+      <translation lang="fr">Désolé, le texte peut ne pas s&apos;afficher correctement sur cet appareil pour Android 4.2 ou 4.3.</translation>
+      <translation lang="es">Lamentablemente el texto no puede mostrarse correctamente en dispositivos Intel para Android 4.2 o 4.3.</translation>
+      <translation lang="pt">Sinto muito, mas o texto talvéz não exiba corretamente neste dispositivo com Android 4.2 ou 4.3.</translation>
+      <translation lang="ru">Извините, текст может отображаться некорректно, если данное устройство работает на ОС Android 4.2 или 4.3.</translation>
+      <translation lang="uk">Вибачте, текст може відображатися некоректно, якщо цей пристрій працює під керуванням ОС Android 4.2 або 4.3.</translation>
+      <translation lang="tr">Üzgünüz, metin bu cihazda Android 4.2 veya 4.3 için doğru şekilde görüntülenmeyebilir.</translation>
+      <translation lang="zh">文本无法为安卓4.2或4.3的设备上正确地显示。</translation>
+      <translation lang="id">Maaf, mungkin teks tidak akan ditampilkan dengan benar pada alat Android 4.2/4.3 ini.</translation>
+      <translation lang="hin">क्षमा करें, इस साधन  पर एंड्रॉइड 4.2 या 4.3 के लिए ठीक से प्रदर्शित नहीं होगा।</translation>
+      <translation lang="mal">ക്ഷമിക്കണം, Android 4.2 അല്ലെങ്കിൽ 4.3 ഉള്ള ഉപകരണങ്ങളിൽ അക്ഷരങ്ങള്‍ ശരിയായ രീതിയിൽ ദൃശ്യമാകില്ലായിരിക്കാം.</translation>
+      <translation lang="vi">Xin lỗi, bản văn có thể không hiển thị chính xác trên thiết bị này vì dùng Android 4.2 hoặc 4.3.</translation>
+      <translation lang="fa">متاسفم، امکان دارد این برنامه در دستگاه شما به درستی اجرا نشود</translation>
+      <translation lang="de">Verzeihung, eventull wird der Text auf diesem Gerät mit Android 4.2 oder 4.3 nicht korrekt angezeigt.</translation>
+      <translation lang="az">Üzr istəyirik, mətn Android 4.2 və ya 4.3 üçün bu cihazda düzgün görünmür.</translation>
+      <translation lang="ar">عذرا،قد لا يتم عرض هذا النص بشكل صحيح على هذا الجهاز  لأندرويد 4.2 و 4.3</translation>
+      <translation lang="ms">Maaf, mesej mungkin tidak dipaparkan dengan betul pada peranti ini untuk Android 4.2 atau 4.3.</translation>
+      <translation lang="bo">དགོངས་དག ཨིན་ཌོ་ 4.2 ཡང་ན་ 4.3 འདིའི་ནང་གི་སྒྲིག་ཆས་འདིའི་སྒང་ནས་ཡིག་ཆ་དེ་ཚད་ལྡན་ཞིག་སྟོན་ཐུབ་ས་མ་རེད།</translation>
+    </translation-mapping>
+    <translation-mapping id="Search">
+      <translation lang="en">Search</translation>
+      <translation lang="fr">Recherche</translation>
+      <translation lang="es">Buscar</translation>
+      <translation lang="pt">Pesquisar</translation>
+      <translation lang="ru">Поиск</translation>
+      <translation lang="uk">Пошук</translation>
+      <translation lang="tr">Ara</translation>
+      <translation lang="id">Pencarian</translation>
+      <translation lang="zh">搜索</translation>
+      <translation lang="hin">खोज</translation>
+      <translation lang="mal">തിരയുക</translation>
+      <translation lang="vi">Tìm kiếm</translation>
+      <translation lang="fa">جستجو</translation>
+      <translation lang="de">Suche</translation>
+      <translation lang="az">Axtarış</translation>
+      <translation lang="ar">بحث</translation>
+      <translation lang="ms">Carian</translation>
+      <translation lang="bo">འཚོལ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Search_Text_Hint">
+      <translation lang="en">Search</translation>
+      <translation lang="fr">Recherche</translation>
+      <translation lang="es">Buscar</translation>
+      <translation lang="pt">Pesquisar</translation>
+      <translation lang="ru">Найти...</translation>
+      <translation lang="uk">знайти...</translation>
+      <translation lang="tr">Ara</translation>
+      <translation lang="id">Pencarian</translation>
+      <translation lang="zh">搜索</translation>
+      <translation lang="hin">खोज</translation>
+      <translation lang="mal">മലയാളത്തില്‍ ടൈപ്പ് ചെയ്യുക</translation>
+      <translation lang="vi">Tìm kiếm</translation>
+      <translation lang="fa">جستجو</translation>
+      <translation lang="de">Suche</translation>
+      <translation lang="az">Axtarış</translation>
+      <translation lang="ar">بحث</translation>
+      <translation lang="ms">Carian</translation>
+      <translation lang="bo">འཚོལ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Search_Match_Whole_Words">
+      <translation lang="en">Match whole words</translation>
+      <translation lang="fr">Mots entiers</translation>
+      <translation lang="es">Coincidir Palabras Completas</translation>
+      <translation lang="pt">Apenas Palavras Inteiras</translation>
+      <translation lang="ru">Слова целиком</translation>
+      <translation lang="uk">Цілі слова</translation>
+      <translation lang="tr">Sözcukleri eşleştir</translation>
+      <translation lang="id">Mencari kata lengkap</translation>
+      <translation lang="zh">全字匹配</translation>
+      <translation lang="hin">पूरे शब्दों से मिलान करें</translation>
+      <translation lang="mal">മുഴുവൻ വാക്കുകള്‍ പൊരുത്തപ്പെടുക</translation>
+      <translation lang="vi">Trùng khớp toàn bộ từ ngữ</translation>
+      <translation lang="fa">تطبیق کل واژه</translation>
+      <translation lang="de">Ganze Wörter</translation>
+      <translation lang="az">Bütöv sözləri uyğunlaşdır</translation>
+      <translation lang="ar">كلمات بالكامل</translation>
+      <translation lang="ms">Padan semua perkataan</translation>
+      <translation lang="bo">ཚིག་ཆ་ཚང་མཚུངས་པ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Search_Match_Accents">
+      <translation lang="en">Match accents and tones</translation>
+      <translation lang="fr">Accents et tons</translation>
+      <translation lang="es">Coincidir Acentos y tonos</translation>
+      <translation lang="pt">Diferenciar acentos e tons</translation>
+      <translation lang="ru">С учётом ударений и тонов</translation>
+      <translation lang="uk">З урахуванням знаків наголосу й тонів</translation>
+      <translation lang="tr">Vurguları ve tonları eşleştir</translation>
+      <translation lang="id">Aksen dan bunyi harus sesuai</translation>
+      <translation lang="zh">比赛的口音和色调</translation>
+      <translation lang="hin">भाषा और सुर को मिलाये</translation>
+      <translation lang="mal">ഉച്ചാരണവും, ശബ്‌ദവും പൊരുത്തപ്പെടുക</translation>
+      <translation lang="vi">Trùng khớp dấu</translation>
+      <translation lang="fa">تطبیق آواها</translation>
+      <translation lang="de">Akzente und Töne einbeziehen</translation>
+      <translation lang="az">Vurğu və tonları uyğunlaşdır</translation>
+      <translation lang="ar">اللهجة والسياق</translation>
+      <translation lang="ms">Pandankan loghart dan nada</translation>
+      <translation lang="bo">སྒྲ་གདངས་དང་བརྗོད་ཤུགས་ཆ་ཚང་མཚུངས་པ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Search_Searching">
+      <translation lang="en">Searching...</translation>
+      <translation lang="fr">Recherche en cours...</translation>
+      <translation lang="es">Buscando...</translation>
+      <translation lang="pt">Pesquisando...</translation>
+      <translation lang="ru">Идёт поиск...</translation>
+      <translation lang="uk">Пошук триває...</translation>
+      <translation lang="tr">Aranıyor...</translation>
+      <translation lang="id">Mencari...</translation>
+      <translation lang="zh">正在搜索…</translation>
+      <translation lang="hin">खोज</translation>
+      <translation lang="mal">തിരയുന്നു...</translation>
+      <translation lang="vi">Đang tìm kiếm...</translation>
+      <translation lang="fa">جستجو...</translation>
+      <translation lang="de">Suche läuft...</translation>
+      <translation lang="az">Axtarış</translation>
+      <translation lang="ar">بحث جاري</translation>
+      <translation lang="ms">Mencari...</translation>
+      <translation lang="bo">འཚོལ་བཞིན་པ་་་</translation>
+    </translation-mapping>
+    <translation-mapping id="Search_Number_Found">
+      <translation lang="en">Found: %,d</translation>
+      <translation lang="fr">Nombre : %,d</translation>
+      <translation lang="es">Encontrados: %,d</translation>
+      <translation lang="pt">Encontrado: %,d</translation>
+      <translation lang="ru">Найдено: %,d</translation>
+      <translation lang="uk">Знайдено: %,d</translation>
+      <translation lang="tr">Bulundu: %,d</translation>
+      <translation lang="id">Ditemukan: %,d</translation>
+      <translation lang="zh">找到 %,d</translation>
+      <translation lang="hin">मिला: %,d</translation>
+      <translation lang="mal">%,d ഇടങ്ങളില്‍ കണ്ടെത്തി</translation>
+      <translation lang="vi">Đã tìm: %,d</translation>
+      <translation lang="fa">%,d پیدا شد</translation>
+      <translation lang="de">Gefunden: %,d</translation>
+      <translation lang="az">Tapıldı: %,d</translation>
+      <translation lang="ar">%,d عدد</translation>
+      <translation lang="ms">Jumpa: %,d</translation>
+      <translation lang="bo">རྙེད་པ་%</translation>
+    </translation-mapping>
+    <translation-mapping id="Search_No_Matches_Found">
+      <translation lang="en">No matches found</translation>
+      <translation lang="fr">Aucun résultat trouvé</translation>
+      <translation lang="es">No hay ninguna coincidencia</translation>
+      <translation lang="pt">Nenhum resultado encontrado</translation>
+      <translation lang="ru">Ничего не найдено</translation>
+      <translation lang="uk">Немає відповідників</translation>
+      <translation lang="tr">Hiçbir sonuç bulunamadı</translation>
+      <translation lang="id">Tidak ditemukan</translation>
+      <translation lang="zh">没有找到匹配</translation>
+      <translation lang="hin">कोई मेल नहीं मिले</translation>
+      <translation lang="mal">ഒന്നും കണ്ടെത്താന്‍ പറ്റിയില്ല</translation>
+      <translation lang="vi">Không có sự trùng khớp nào được tìm thấy</translation>
+      <translation lang="fa">پیدا نشد</translation>
+      <translation lang="de">Keine Treffer gefunden</translation>
+      <translation lang="az">Uyğun olan tapılmadı</translation>
+      <translation lang="ar">لم يتم العثور على تطابقات</translation>
+      <translation lang="ms">Tida pad anan</translation>
+      <translation lang="bo">འདྲ་བོ་ཞིག་མི་འདུག</translation>
+    </translation-mapping>
+    <translation-mapping id="Search_Again_Button">
+      <translation lang="en">Search</translation>
+      <translation lang="fr">Recherche</translation>
+      <translation lang="es">Buscar</translation>
+      <translation lang="pt">Pesquisar</translation>
+      <translation lang="ru">Искать</translation>
+      <translation lang="uk">Шукати</translation>
+      <translation lang="tr">Ara</translation>
+      <translation lang="id">Cari</translation>
+      <translation lang="zh">搜索</translation>
+      <translation lang="hin">खोज</translation>
+      <translation lang="mal">വീണ്ടും തിരയുക</translation>
+      <translation lang="vi">Tìm kiếm</translation>
+      <translation lang="fa">جستجو</translation>
+      <translation lang="de">Suche</translation>
+      <translation lang="az">Axtarış</translation>
+      <translation lang="ar">بحث</translation>
+      <translation lang="ms">Carian</translation>
+      <translation lang="bo">འཚོལ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Search_Cancel_Button">
+      <translation lang="en">Cancel</translation>
+      <translation lang="fr">Annuler</translation>
+      <translation lang="es">Cancelar</translation>
+      <translation lang="pt">Cancelar</translation>
+      <translation lang="ru">Отменить</translation>
+      <translation lang="uk">Скасувати</translation>
+      <translation lang="tr">İptal etmek</translation>
+      <translation lang="id">Batal</translation>
+      <translation lang="zh">取消</translation>
+      <translation lang="hin">निरस्त करना</translation>
+      <translation lang="mal">ക്യാന്‍സല്‍ ചെയ്യുക</translation>
+      <translation lang="vi">Hủy</translation>
+      <translation lang="fa">لغو</translation>
+      <translation lang="de">Beenden</translation>
+      <translation lang="az">Ləğv et</translation>
+      <translation lang="ar">إلغاء</translation>
+      <translation lang="ms">Batal</translation>
+      <translation lang="bo">འཚོལ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Download_Title">
+      <translation lang="en">Audio Download</translation>
+      <translation lang="fr">Téléchargement audio</translation>
+      <translation lang="es">Descarga de audio</translation>
+      <translation lang="pt">Download de Áudio</translation>
+      <translation lang="ru">Загрузка аудио</translation>
+      <translation lang="uk">Завантаження аудіо</translation>
+      <translation lang="tr">Ses İndir</translation>
+      <translation lang="zh">音频下载</translation>
+      <translation lang="id">Mengunduh audio</translation>
+      <translation lang="hin">ऑडियो डाउनलोड</translation>
+      <translation lang="mal">ഓഡിയോ ഡൌണ്‍ലോഡ്</translation>
+      <translation lang="vi">Tải tiếng</translation>
+      <translation lang="fa">دانلود صوتی</translation>
+      <translation lang="de">Audio-Download</translation>
+      <translation lang="az">Audio yükləmə</translation>
+      <translation lang="ar">تحميل الصوت</translation>
+      <translation lang="ms">Muat turun audio</translation>
+      <translation lang="bo">སྒྲ་ཕབ་ལེན།</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Download_Confirm">
+      <translation lang="en">Download audio file?</translation>
+      <translation lang="fr">Télécharger fichier audio?</translation>
+      <translation lang="es">¿Descargar archivo de audio?</translation>
+      <translation lang="pt">Baixar arquivo de áudio?</translation>
+      <translation lang="ru">Загрузить аудиофайл?</translation>
+      <translation lang="uk">Завантажити аудіо файл?</translation>
+      <translation lang="tr">Ses dosyasını indirmek istiyor musun?</translation>
+      <translation lang="zh">下载音频文件吗？</translation>
+      <translation lang="id">Apakah mau mengunduh file audio?</translation>
+      <translation lang="hin">ऑडियो पंक्ति डाउनलोड</translation>
+      <translation lang="mal">ഓഡിയോ ഫയൽ ഡൗൺലോഡു ചെയ്യണോ?</translation>
+      <translation lang="vi">Tải file tiếng?</translation>
+      <translation lang="fa">فایل صوتی را دانلود می کنید؟</translation>
+      <translation lang="de">Audiodatei herunterladen?</translation>
+      <translation lang="az">Audio faylı yükləmək?</translation>
+      <translation lang="ar">تحميل الملف الصوتي</translation>
+      <translation lang="ms">Muat turun fail audio</translation>
+      <translation lang="bo">སྒྲ་ཕབ་ལེན་བྱ་རྒྱུ་ཡིན་ནམ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Download_Auto">
+      <translation lang="en">Download automatically from now on</translation>
+      <translation lang="fr">Télécharger automatiquement à partir de maintenant</translation>
+      <translation lang="es">Descargar audio automáticamente a partir de ahora</translation>
+      <translation lang="pt">Baixar automaticamente daqui para a frente</translation>
+      <translation lang="ru">В дальнейшем загружать автоматически</translation>
+      <translation lang="uk">Надалі завантажувати автоматично</translation>
+      <translation lang="tr">Bundan sonra otomatik olarak indir</translation>
+      <translation lang="zh">后来自动下载</translation>
+      <translation lang="id">Selalu mengunduh secara otomatis</translation>
+      <translation lang="hin">स्वचालित रूप से अब से डाउनलोड करें</translation>
+      <translation lang="mal">ഇനി മുതല്‍ ചോദിക്കാതെ ഡൌണ്‍ലോഡ് ചെയ്യുക</translation>
+      <translation lang="vi">Tải tự động kể từ lúc này</translation>
+      <translation lang="fa">از این به بعد دانلود صوتی بصورت اتوماتیک وار انجام شود</translation>
+      <translation lang="de">Ab jetzt automatisch herunterladen</translation>
+      <translation lang="az">İndi avtomatik olaraq yüklə</translation>
+      <translation lang="ar">التحميل بصورة الية منذ الأن</translation>
+      <translation lang="ms">Muat turun secara automatik dari sekarang</translation>
+      <translation lang="bo">ད་ནས་རང་འགུལ་གྱིས་ཕབ་ལེན་བྱེད།</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Download_Connect">
+      <translation lang="en">To download audio files, please connect to the internet.</translation>
+      <translation lang="fr">Pour télécharger les fichiers audio, veuillez vous connecter à l&apos;internet</translation>
+      <translation lang="es">Para descargar archivos de audio, por favor conectese a internet</translation>
+      <translation lang="pt">Para baixar arquivos de áudio, favor conectar à Internet.</translation>
+      <translation lang="ru">Для загрузки аудиофайлов, пожалуйста, подключитесь к интернету</translation>
+      <translation lang="uk">Щоб завантажити аудіо файли, будь ласка, під&apos;єднайтеся до інтернету</translation>
+      <translation lang="tr">Ses dosyalarını indirmek için, lütfen internete bağlanın.</translation>
+      <translation lang="zh">下载的音频文件，请连接到互联网。</translation>
+      <translation lang="id">Untuk mengunduh audio, harus konek ke internet</translation>
+      <translation lang="hin">ऑडियो फ़ाइलों को डाउनलोड करने के लिए, कृपया इंटरनेट से कनेक्ट करें</translation>
+      <translation lang="mal">ഓഡിയോ ഡൌണ്‍ലോഡ് ചെയ്യാന്‍ ഇന്റര്‍നെറ്റ്‌ ആവശ്യമാണ്‌</translation>
+      <translation lang="vi">Để tải file tiếng, vui lòng kết nối mạng.</translation>
+      <translation lang="fa">برای دانلود فایل های صوتی، لطفا به اینترنت متصل شوید.</translation>
+      <translation lang="de">Um die Audiodateien herunterzuladen, bitte mit dem Internet verbinden.</translation>
+      <translation lang="az">Audio faylları yükləmək üçün İnternetə qoşul.</translation>
+      <translation lang="ar">لتحميل الملفات الصوتية، الرجاء الإتصال بلأنترنت.</translation>
+      <translation lang="ms">Muat turun secara automatik dari sekarang</translation>
+      <translation lang="bo">སྒྲ་ཕབ་ལེན་བྱེད་ན་དྲ་རྒྱར་མཐུད་རོགས།</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Download_Error">
+      <translation lang="en">Download Error:</translation>
+      <translation lang="fr">Erreur de téléchargement :</translation>
+      <translation lang="es">Error de descarga:</translation>
+      <translation lang="pt">Erro no Download</translation>
+      <translation lang="ru">Ошибка загрузки</translation>
+      <translation lang="uk">Помилка завантаження</translation>
+      <translation lang="tr">İndirme hatası:</translation>
+      <translation lang="zh">下载错误：</translation>
+      <translation lang="id">Error mengunduh:</translation>
+      <translation lang="hin">डाउनलोड त्रुटि</translation>
+      <translation lang="mal">ഡൌണ്‍ലോഡ് ശരിയായില്ല:</translation>
+      <translation lang="vi">Lỗi tải:</translation>
+      <translation lang="fa">خطا در دانلود</translation>
+      <translation lang="de">Fehler beim Herunterladen:</translation>
+      <translation lang="az">Yükləmə səhvi</translation>
+      <translation lang="ar">خطأ في التنزيل</translation>
+      <translation lang="ms">Muat turun secara automatik dari sekarang</translation>
+      <translation lang="bo">ཕབ་ལེན་ལ་གནད་དོན་བྱུང་སོང་།</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Download_Timeout">
+      <translation lang="en">Timed out connecting to audio server.</translation>
+      <translation lang="fr">Délai de connexion au serveur audio.</translation>
+      <translation lang="ms">Tamat sambung ke pelayan Audio.</translation>
+      <translation lang="ru">Время подключения к аудиосерверу истекло.</translation>
+      <translation lang="bo">སྒྲའི་གསོག་སྣོད་ལ་མཐུད་པའི་དུས་ཚོད་ཡོལ་སོང་།</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Downloading">
+      <translation lang="en">Downloading %book %chapter...</translation>
+      <translation lang="fr">Téléchargement de %book %chapter...</translation>
+      <translation lang="es">Descargando %book %chapter...</translation>
+      <translation lang="pt">Baixando %book %chapter...</translation>
+      <translation lang="ru">Загружается %book %chapter...</translation>
+      <translation lang="uk">Завантажується %book %chapter...</translation>
+      <translation lang="tr">%book %chapter indiriliyor...</translation>
+      <translation lang="zh">正在下载 %book %chapter...</translation>
+      <translation lang="id">Sedang mengunduh %book %chapter...</translation>
+      <translation lang="hin">%book %chapter डाउनलोड कर रहा है ..</translation>
+      <translation lang="mal">%book %chapter ഡൌണ്‍ലോഡ് ചെയ്തു കൊണ്ടിരിക്കുന്നു...</translation>
+      <translation lang="vi">Đang tải %book %chapter...</translation>
+      <translation lang="fa">در حال دانلود</translation>
+      <translation lang="de">Heruntergeladen %book %chapter</translation>
+      <translation lang="az">Kitab fəslinin yüklənməsi...</translation>
+      <translation lang="ar">تحميل %book %chapter</translation>
+      <translation lang="ms">Muat turun %book %chapter...</translation>
+      <translation lang="bo">དཔེ་ཆ་ཕབ་ལེན་བྱེད་བཞིན་པའི་བརྒྱ་ཆ་%ལེའུའི་བརྒྱ་ཆ་%....</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Check_Connection">
+      <translation lang="en">Please check your internet connection.</translation>
+      <translation lang="fr">Veuillez vérifier votre connexion internet</translation>
+      <translation lang="es">Por favor revise su conexión a Internet</translation>
+      <translation lang="pt">Favor verificar a sua conexão à Internet.</translation>
+      <translation lang="ru">Пожалуйста, проверьте интернет-соединение</translation>
+      <translation lang="uk">Будь ласка, перевірте інтернет з&apos;єднання</translation>
+      <translation lang="tr">Lütfen internet bağlantınızı kontrol edin.</translation>
+      <translation lang="zh">请检查您的网络连接。</translation>
+      <translation lang="id">Harap memeriksa koneksi internet.</translation>
+      <translation lang="hin">कृपया अपने इंटरनेट कनेक्शन की जाँच करें।</translation>
+      <translation lang="mal">ദയവായി നിങ്ങളുടെ ഇന്റര്‍നെറ്റ്‌  കണക്ഷന്‍ ചെക്ക്‌ ചെയ്യുക</translation>
+      <translation lang="vi">Vui lòng kiểm tra kết nối mạng.</translation>
+      <translation lang="fa">لطفا اتصال اینترنت را برسی کنید</translation>
+      <translation lang="de">Bitte überprüfen Sie Ihre Internetverbindung.</translation>
+      <translation lang="az">İnternet bağlantınızı yoxlayın</translation>
+      <translation lang="ar">الرجاء التحقق من اتصالك بالإنترنت</translation>
+      <translation lang="ms">Sila semak sambungan internet anda</translation>
+      <translation lang="bo">དྲ་རྒྱར་མཐུད་ཡོད་མེད་ལྟོས་དང་།</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_File_Not_Found">
+      <translation lang="en">Audio file not found</translation>
+      <translation lang="fr">Fichier audio introuvable</translation>
+      <translation lang="es">Archivo de audio no encontrado</translation>
+      <translation lang="pt">Arquivo de áudio não encontrado</translation>
+      <translation lang="ru">Аудиофайл не найден</translation>
+      <translation lang="uk">Аудіо файл не знайдено</translation>
+      <translation lang="tr">Ses dosyası bulunamadı</translation>
+      <translation lang="zh">找不到音频文件</translation>
+      <translation lang="id">Audio tidak ditemukan</translation>
+      <translation lang="hin">ऑडियो फ़ाइल नहीं मिली</translation>
+      <translation lang="mal">ഓഡിയോ ഫയല്‍ കണ്ടെത്തിയില്ല</translation>
+      <translation lang="vi">File tiếng không được tìm thấy.</translation>
+      <translation lang="fa">فایل صوتی یافت نشد</translation>
+      <translation lang="de">Audiodatei wurde nicht gefunden.</translation>
+      <translation lang="az">Audio fayl tapılmadı</translation>
+      <translation lang="ar">الملف الصوتي غير موجود</translation>
+      <translation lang="ms">Fail audio tidak dijumpai</translation>
+      <translation lang="bo">སྒྲའི་ཡིག་ཆ་རྙེད་མ་སོང་།</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Looking_For_File">
+      <translation lang="en">Looking for audio file on your device...</translation>
+      <translation lang="fr">Recherche du fichier audio sur votre appareil...</translation>
+      <translation lang="ms">Mencari fail audio pada peranti anda...</translation>
+      <translation lang="es">Buscando el archivo de audio en su dispositivo...</translation>
+      <translation lang="ru">Поиск аудиофайла на вашем устройстве…</translation>
+      <translation lang="bo">ཁྱེད་ཀྱི་འཕྲུལ་ཆའི་སྒང་ནས་སྒྲ་འཚོལ་བཞིན་ཡོད།</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Repeat_Off_Continue">
+      <translation lang="en">Play to next page</translation>
+      <translation lang="fr">Aller à la page suivante</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Repeat_Off_Stop">
+      <translation lang="en">Stop at end of page</translation>
+      <translation lang="fr">Arrêter en fin de page</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Repeat_Page">
+      <translation lang="en">Repeat page</translation>
+      <translation lang="fr">Répéter la page</translation>
+    </translation-mapping>
+    <translation-mapping id="Video_Download_Title">
+      <translation lang="en">Video Download</translation>
+      <translation lang="fr">Téléchargement vidéo</translation>
+      <translation lang="ms">Muat turun video</translation>
+      <translation lang="es">Descarga de video</translation>
+      <translation lang="ru">Загрузка видео</translation>
+      <translation lang="bo">བརྙན་ཕབ་ལེན།</translation>
+    </translation-mapping>
+    <translation-mapping id="Video_Download_Confirm">
+      <translation lang="en">Download video file?</translation>
+      <translation lang="fr">Télécharger fichier vidéo ?</translation>
+      <translation lang="ms">Muat turun fail Video?</translation>
+      <translation lang="es">¿Descargar el archivo de vídeo?</translation>
+      <translation lang="ru">Загрузить видео?</translation>
+      <translation lang="bo">བརྙན་ཕབ་ལེན་བྱ་རྒྱུ་ཡིན་ནམ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Video_Downloading">
+      <translation lang="en">Downloading video...</translation>
+      <translation lang="fr">Téléchargement de la vidéo...</translation>
+      <translation lang="ms">Muat turun video</translation>
+      <translation lang="es">Descargando el video...</translation>
+      <translation lang="ru">Видео загружается…</translation>
+      <translation lang="bo">བརྙན་ཕབ་ལེན་བྱེད་བཞིན་ཡོད་་་</translation>
+    </translation-mapping>
+    <translation-mapping id="Video_Downloaded">
+      <translation lang="en">Video downloaded</translation>
+      <translation lang="fr">Vidéo téléchargée</translation>
+      <translation lang="ms">Video yang dimuat turun</translation>
+      <translation lang="es">Video descargado</translation>
+      <translation lang="ru">Видео загружено</translation>
+      <translation lang="bo">བརྙན་ཕབ་ལེན་གྲུབ་སོང་།</translation>
+    </translation-mapping>
+    <translation-mapping id="Video_Looking_For_File">
+      <translation lang="en">Looking for video file on your device...</translation>
+      <translation lang="fr">Recherche du fichier vidéo sur votre appareil...</translation>
+      <translation lang="ms">Mencari fail video pada peranti anda...</translation>
+      <translation lang="es">Buscando el archivo de video en su dispositivo...</translation>
+      <translation lang="ru">Поиск видео на вашем устройстве…</translation>
+      <translation lang="bo">ཁྱེད་ཀྱི་འཕྲུལ་ཆའི་སྒང་ནས་བརྙན་འཚོལ་བཞིན་ཡོད།</translation>
+    </translation-mapping>
+    <translation-mapping id="Video_File_Not_Found">
+      <translation lang="en">Video file not found</translation>
+      <translation lang="fr">Fichier vidéo introuvable</translation>
+      <translation lang="es">Archivo de video no encontrado</translation>
+      <translation lang="pt">Arquivo de vídeo não encontrado</translation>
+      <translation lang="ru">Видеофайл не найден</translation>
+      <translation lang="bo">བརྙན་རྙེད་མ་སོང་།</translation>
+    </translation-mapping>
+    <translation-mapping id="App_Downloading_App">
+      <translation lang="en">Downloading app...</translation>
+      <translation lang="fr">Téléchargement de l&apos;application...</translation>
+      <translation lang="bo">མཉེན་ཆས་ཕབ་ལེན་བྱེད་བཞིན་པ་་་</translation>
+    </translation-mapping>
+    <translation-mapping id="App_File_Error">
+      <translation lang="en">Error processing downloaded app</translation>
+      <translation lang="fr">Erreur de traitement de l&apos;application téléchargée</translation>
+      <translation lang="bo">མཉེན་ཆས་ཕབ་ལེན་གྱི་བརྒྱུད་རིམ་ལ་གནད་དོན་བྱུང་སོང་</translation>
+    </translation-mapping>
+    <translation-mapping id="Share_Apk_File">
+      <translation lang="en">Share App Installer File</translation>
+      <translation lang="fr">Partager fichier d&apos;installation de l&apos;appli</translation>
+      <translation lang="es">Compartir archivo del instalador de la aplicación</translation>
+      <translation lang="pt">Compartilhar Arquivo de Instalação do Aplicativo</translation>
+      <translation lang="tr">Uygulama Yükleyici Dosyasını Paylaş</translation>
+      <translation lang="id">Bagikan file aplikasi (APK)</translation>
+      <translation lang="hin">स्थापनाकर्ता पंक्ति के ऐप को साझा करे</translation>
+      <translation lang="mal">ആപ്പ് ഇൻസ്റ്റാളർ ഫയൽ ഷെയര്‍ ചെയ്യുക</translation>
+      <translation lang="zh">共享应用程序安装文件</translation>
+      <translation lang="vi">Chia sẻ file cài đặt App</translation>
+      <translation lang="fa">اشتراک گذاری فایل نصب برنامه</translation>
+      <translation lang="ru">Поделиться установочным файлом приложения (.apk)</translation>
+      <translation lang="de">App-Datei weitergeben</translation>
+      <translation lang="az">Tətbiq Yükləmə Faylını paylaş</translation>
+      <translation lang="ar">مشاركة ملف التنصيب</translation>
+      <translation lang="ms">KONGSI APP FAIL PEMASANG</translation>
+      <translation lang="bo">མཉེན་ཆས་འཇུག་སྤྲོད་ཀྱི་ཡིག་ཆ་བརྒྱུད་སྐུར།</translation>
+    </translation-mapping>
+    <translation-mapping id="Share_Apk_File_Via">
+      <translation lang="en">Share App via</translation>
+      <translation lang="fr">Partager application par</translation>
+      <translation lang="tr">Üzerinden uygulama paylaşın</translation>
+      <translation lang="id">Bagi app ini melalui link</translation>
+      <translation lang="hin">एप्लिकेशन के माध्यम से साझा करें</translation>
+      <translation lang="mal">എ.പി.കെ ഫയൽ ഷെയര്‍ ചെയ്യുക</translation>
+      <translation lang="es">es: Compartir a través de</translation>
+      <translation lang="pt">Compartilhar Aplicativo via</translation>
+      <translation lang="zh">共享应用程通过</translation>
+      <translation lang="vi">Chia sẻ App qua</translation>
+      <translation lang="fa">اشتراک گذاری از طریق</translation>
+      <translation lang="ru">Поделиться приложением через</translation>
+      <translation lang="de">App weitergeben mit</translation>
+      <translation lang="az">Tətbiq vasitəsilə paylaş</translation>
+      <translation lang="ar">مشاركة التطبيق عن طريق</translation>
+      <translation lang="ms">Kongsi aplikasi melalui</translation>
+      <translation lang="bo">མཉེན་ཆས་བརྒྱུད་སྐུར་གྱི་བརྒྱུད་ལམ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Share_App_Link">
+      <translation lang="en">Share Link to App on Google Play</translation>
+      <translation lang="fr">Partager lien à l&apos;appli sur Google Play</translation>
+      <translation lang="es">Compartir enlace de aplicación en Google Play</translation>
+      <translation lang="pt">Compartilhar hiperlink ao Aplicativo no Google Play</translation>
+      <translation lang="tr">Google Play&apos;de Uygulamaya Bağlantı Paylaşın</translation>
+      <translation lang="id">Membagi link ke app ini di Google Play Store</translation>
+      <translation lang="hin">गूगल प्ले के ऐप के  लिंक को साझा करें</translation>
+      <translation lang="mal">ഗൂഗിൾ പ്ലേയിലെ ആപ്പ് ലിങ്ക് ഷെയര്‍ ചെയ്യുക</translation>
+      <translation lang="vi">Chia sẻ đường dẫn đến App trên Google Play</translation>
+      <translation lang="fa">پیوند به برنامه را در Google play به اشتراک بگذارید</translation>
+      <translation lang="ru">Поделиться ссылкой на приложение в Google Play</translation>
+      <translation lang="de">Den Link der App zu Google Play weitergeben</translation>
+      <translation lang="az">Google Play-də tətbiqə keçmək üçün linki paylaş</translation>
+      <translation lang="ar">مشاركة رابط التطبيق على جوجل بلاي</translation>
+      <translation lang="ms">Berkongsi pautan ke aplikasi pada Main Google</translation>
+      <translation lang="bo">Google Play སྒང་ལ་མཉེན་ཆས་ཀྱི་དྲ་ཐག་བརྒྱུད་སྐུར་བྱེད།</translation>
+    </translation-mapping>
+    <translation-mapping id="Share_App_Link_Recommend">
+      <translation lang="en">I can recommend this app:</translation>
+      <translation lang="fr">Je peux recommander cette application :</translation>
+      <translation lang="tr">Bu uygulamayı tavsiye edebilirim:</translation>
+      <translation lang="id">Saya merekomendasikan app ini:</translation>
+      <translation lang="hin">मै इस ऐप की अनुशंसा करता हूँ</translation>
+      <translation lang="mal">എനിക്ക് ഈ ആപ്പ് ശുപാർശ ചെയ്യാൻ കഴിയും</translation>
+      <translation lang="es">Puedo recomendar esta aplicación</translation>
+      <translation lang="pt">Eu posso recomendar este aplicativo:</translation>
+      <translation lang="zh">我可以推荐这个应用程序：</translation>
+      <translation lang="vi">Tôi có thể giới thiệu app:</translation>
+      <translation lang="fa">من می توانم این برنامه را توصیه کنم:</translation>
+      <translation lang="ru">Я бы порекомендовал это приложение:</translation>
+      <translation lang="de">Ich kann diese App empfehlen:</translation>
+      <translation lang="az">Bu tətbiqi tövsiyə edə bilərəm:</translation>
+      <translation lang="ar">يمكنني التوصية  بهذا التطبيق</translation>
+      <translation lang="ms">Saya boleh cadangkan aplikasi ini:</translation>
+      <translation lang="bo">ངས་མཉེན་ཆས་འདི་མཚམས་སྦྱོར་བྱེད་ཐུབ་ས་ནི།</translation>
+    </translation-mapping>
+    <translation-mapping id="Share_App_Link_Via">
+      <translation lang="en">Share Link via</translation>
+      <translation lang="fr">Partager lien par</translation>
+      <translation lang="tr">Üzerinden uygulama paylaşın</translation>
+      <translation lang="id">Membagi link melalui</translation>
+      <translation lang="hin">लिंक के माध्यम से साझा करें</translation>
+      <translation lang="mal">ലിങ്ക് ഷെയര്‍ ചെയ്യുക</translation>
+      <translation lang="es">Compartir enlace a través de</translation>
+      <translation lang="pt">Compartilhar Hiperlink via</translation>
+      <translation lang="zh">共享链路通过：</translation>
+      <translation lang="vi">Chia sẻ đường dẫn qua</translation>
+      <translation lang="fa">اشتراک گذاری پیوند از طریق</translation>
+      <translation lang="ru">Поделиться ссылкой через</translation>
+      <translation lang="de">Den Link weitergeben mit</translation>
+      <translation lang="az">Bağlantıyı paylaşın</translation>
+      <translation lang="ar">مشاركة الرابط من خلال</translation>
+      <translation lang="ms">Berkongsi Link melalui</translation>
+      <translation lang="bo">དྲ་ཐག་བརྒྱུད་སྐུར་གྱི་བརྒྱུད་ལམ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Share_Via">
+      <translation lang="en">Share via</translation>
+      <translation lang="fr">Partager par</translation>
+      <translation lang="tr">Üzerinden paylaş</translation>
+      <translation lang="id">Berbagi melalui</translation>
+      <translation lang="hin">के माध्यम से बाँटे</translation>
+      <translation lang="mal">ഷെയര്‍ ചെയ്യുക</translation>
+      <translation lang="es">Compartir a través de</translation>
+      <translation lang="pt">Compartilhar via</translation>
+      <translation lang="zh">共享通过：</translation>
+      <translation lang="vi">Chia sẻ qua</translation>
+      <translation lang="fa">اشتراک گذاری از طریق</translation>
+      <translation lang="ru">Поделиться через</translation>
+      <translation lang="de">Weitergeben mit</translation>
+      <translation lang="az">Paylaşın</translation>
+      <translation lang="ar">مشاركة عبر</translation>
+      <translation lang="ms">Berkongsi melalui</translation>
+      <translation lang="bo">བརྒྱུད་སྐུར་གྱི་བརྒྱུད་ལམ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Share_Text">
+      <translation lang="en">Share Text</translation>
+      <translation lang="fr">Partager texte</translation>
+      <translation lang="es">Compartir texto</translation>
+      <translation lang="ru">Поделиться текстом</translation>
+      <translation lang="bo">ཡིག་རྐྱང་བརྒྱུད་སྐུར།</translation>
+    </translation-mapping>
+    <translation-mapping id="Share_Audio">
+      <translation lang="en">Share Audio</translation>
+      <translation lang="fr">Partager audio</translation>
+      <translation lang="es">Compartir Audio</translation>
+      <translation lang="ru">Поделиться аудио</translation>
+      <translation lang="bo">སྒྲ་བརྒྱུད་སྐུར།</translation>
+    </translation-mapping>
+    <translation-mapping id="Share_Image">
+      <translation lang="en">Share Image</translation>
+      <translation lang="fr">Partager image</translation>
+      <translation lang="es">Compartir imagen</translation>
+      <translation lang="ru">Поделиться изображением</translation>
+      <translation lang="bo">འདྲ་པར་བརྒྱུད་སྐུར།</translation>
+    </translation-mapping>
+    <translation-mapping id="Share_Video">
+      <translation lang="en">Share Video</translation>
+      <translation lang="fr">Partager vidéo</translation>
+      <translation lang="es">Compartir Video</translation>
+      <translation lang="ru">Поделиться видео</translation>
+      <translation lang="bo">བརྙན་བརྒྱུད་སྐུར།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Category_Notifications">
+      <translation lang="en">Notifications</translation>
+      <translation lang="fr">Notifications</translation>
+      <translation lang="ms">Pemberitahuan</translation>
+      <translation lang="ru">Уведомления</translation>
+      <translation lang="bo">གསར་བརྡ་ཁག</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Category_Audio">
+      <translation lang="en">Audio</translation>
+      <translation lang="fr">Audio</translation>
+      <translation lang="fa">صوتی</translation>
+      <translation lang="ru">Аудио</translation>
+      <translation lang="es">Audio</translation>
+      <translation lang="pt">Áudio</translation>
+      <translation lang="de">Audio</translation>
+      <translation lang="id">Audio</translation>
+      <translation lang="az">Audio</translation>
+      <translation lang="ar">صوتيات</translation>
+      <translation lang="ms">Audio</translation>
+      <translation lang="bo">སྒྲ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Category_Interface">
+      <translation lang="en">User Interface</translation>
+      <translation lang="fr">Interface utilisateur</translation>
+      <translation lang="es">Interfaz del usuario</translation>
+      <translation lang="tr">Kullanıcı arayüzü</translation>
+      <translation lang="id">Antarmuka pengguna</translation>
+      <translation lang="hin">उपयोक्ता इंटरफेस</translation>
+      <translation lang="mal">യൂസര്‍ ഇന്റർഫേസ്</translation>
+      <translation lang="pt">Interface do Usuário</translation>
+      <translation lang="zh">用户界面</translation>
+      <translation lang="vi">Giao diện người dùng</translation>
+      <translation lang="fa">رابط کاربر</translation>
+      <translation lang="ru">Интерфейс пользователя</translation>
+      <translation lang="de">Benutzeroberfläche</translation>
+      <translation lang="az">stifadəçi interfeysi</translation>
+      <translation lang="ar">واجهة مستخدم</translation>
+      <translation lang="ms">Antara pengguna</translation>
+      <translation lang="bo">སྤྱོད་མཁན་གྱི་མདུན་ངོས།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Show_Border">
+      <translation lang="en">Show border</translation>
+      <translation lang="fr">Bordure autour du texte</translation>
+      <translation lang="tr">Kenarlığı Göster</translation>
+      <translation lang="id">Tampilkan perbatasan</translation>
+      <translation lang="hin">सीमा दिखाना</translation>
+      <translation lang="mal">ബോർഡർ കാണിക്കുക</translation>
+      <translation lang="es">Mostrar borde al texto</translation>
+      <translation lang="pt">Exibir Bordas</translation>
+      <translation lang="vi">Hiển thị đường viền</translation>
+      <translation lang="fa">کادر را نشان بده</translation>
+      <translation lang="ru">Показывать рамку</translation>
+      <translation lang="de">Rahmen anzeigen</translation>
+      <translation lang="az">Haşiyə göstər</translation>
+      <translation lang="ar">عرض حدود النص</translation>
+      <translation lang="ms">Tunjuk sempadan</translation>
+      <translation lang="bo">མཐའ་སྒྲོམ་སྟོན།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Show_Border_Summary">
+      <translation lang="en">Show decorative border around text</translation>
+      <translation lang="fr">Afficher une bordure decorative autour du texte</translation>
+      <translation lang="tr">Dekoratif metin kenarlığı göster</translation>
+      <translation lang="id">Tunjukkan batas dekoratif di sekitar teks</translation>
+      <translation lang="hin">पाठ के आसपास सजावटी सीमा दिखाएं</translation>
+      <translation lang="mal">വാചകത്തിനു ചുറ്റും അലങ്കാര ബോർഡർ കാണിക്കുക</translation>
+      <translation lang="es">Mostrar un borde decorativo alrededor del texto</translation>
+      <translation lang="pt">Exibir bordas decorativas ao redor do texto</translation>
+      <translation lang="vi">Hiển thị đường viền trang trí xung quanh văn bản</translation>
+      <translation lang="fa">کادر تزئینی اطراف متن را نشان بده</translation>
+      <translation lang="ru">Показывать декоративную рамку вокруг текста</translation>
+      <translation lang="de">Einen dekorativen Rahmen um den Text anzeigen</translation>
+      <translation lang="az">Mətn ətrafında dekorativ haşiyələr göstər</translation>
+      <translation lang="ar">عرض زينة حول حدود النص</translation>
+      <translation lang="ms">Tunjukkan sempadan hiasan sekitar teks</translation>
+      <translation lang="bo">ཡིག་རྐྱང་གི་མཐའ་སྒྲོམ་མཛེས་སྤྲས་བྱས་པ་རྣམས་སྟོན།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Interface_Language">
+      <translation lang="en">Language</translation>
+      <translation lang="fr">Langue</translation>
+      <translation lang="es">Idioma</translation>
+      <translation lang="pt">Idioma da Interface</translation>
+      <translation lang="tr">Arayüz Dili</translation>
+      <translation lang="id">Bahasa antarmuka</translation>
+      <translation lang="hin">भाषा</translation>
+      <translation lang="mal">ഭാഷ</translation>
+      <translation lang="zh">语言</translation>
+      <translation lang="vi">Ngôn ngữ giao diện</translation>
+      <translation lang="fa">زبان رابط</translation>
+      <translation lang="ru">Язык</translation>
+      <translation lang="de">Benutzersprache</translation>
+      <translation lang="az">Dil</translation>
+      <translation lang="ar">اللغة</translation>
+      <translation lang="ms">Bahasa</translation>
+      <translation lang="bo">སྐད་ཡིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Layout_Direction">
+      <translation lang="en">Layout direction</translation>
+      <translation lang="fr">Direction de mise en page</translation>
+      <translation lang="tr">Yerleşim yönü</translation>
+      <translation lang="id">Arah tata letak</translation>
+      <translation lang="hin">लेआउट दिशा</translation>
+      <translation lang="mal">ലേഔട്ട് ദിശ</translation>
+      <translation lang="es">Dirección de la distribución</translation>
+      <translation lang="pt">Direção do Layout</translation>
+      <translation lang="zh">布局方向</translation>
+      <translation lang="vi">Hướng trình bày</translation>
+      <translation lang="fa">مدیریت آرایش</translation>
+      <translation lang="ru">Направление текста</translation>
+      <translation lang="de">Richtung des Layouts</translation>
+      <translation lang="az">düzümü istiqaməti</translation>
+      <translation lang="ar">إدارة التصميم</translation>
+      <translation lang="ms">Bahasa</translation>
+      <translation lang="bo">ཀློག་ཕྱོགས།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Layout_Direction_LTR">
+      <translation lang="en">Left to Right</translation>
+      <translation lang="fr">De gauche à droite</translation>
+      <translation lang="es">De izquierda a derecha</translation>
+      <translation lang="tr">Soldan sağa</translation>
+      <translation lang="id">Kiri ke kanan</translation>
+      <translation lang="hin">बाएं से दाएं</translation>
+      <translation lang="mal">ഇടത് നിന്ന് വലത്തേക്ക്</translation>
+      <translation lang="pt">Esquerda para Direita</translation>
+      <translation lang="zh">左到右</translation>
+      <translation lang="vi">Từ trái qua phải</translation>
+      <translation lang="fa">چپ به راست</translation>
+      <translation lang="ru">Слева направо</translation>
+      <translation lang="de">von links nach rechts</translation>
+      <translation lang="az">Soldan sağa</translation>
+      <translation lang="ar">من اليمين إلى اليسار</translation>
+      <translation lang="ms">Kiri ke Kanan</translation>
+      <translation lang="bo">གཡོན་ནས་གཡས།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Layout_Direction_RTL">
+      <translation lang="en">Right to Left</translation>
+      <translation lang="fr">De droite à gauche</translation>
+      <translation lang="es">De derecha a izquierda</translation>
+      <translation lang="tr">Sağdan sola</translation>
+      <translation lang="id">Kanan ke kiri</translation>
+      <translation lang="hin">दाएं से बाएं</translation>
+      <translation lang="mal">വലത് നിന്ന് ഇടത്തേക്ക്</translation>
+      <translation lang="pt">Direita para Esquerda</translation>
+      <translation lang="zh">右到左</translation>
+      <translation lang="vi">Từ phải qua trái</translation>
+      <translation lang="fa">راست به چپ</translation>
+      <translation lang="ru">Справа налево</translation>
+      <translation lang="de">von rechts nach links</translation>
+      <translation lang="az">Sağdan sola</translation>
+      <translation lang="ar">من اليسار إلى اليمين</translation>
+      <translation lang="ms">Kanan ke Kiri</translation>
+      <translation lang="bo">གཡས་ནས་གཡོན།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Layout_Direction_Interface_Language">
+      <translation lang="en">Direction of interface language</translation>
+      <translation lang="fr">Direction de la langue de l&apos;interface</translation>
+      <translation lang="tr">Arayüz dilinin yönü</translation>
+      <translation lang="id">Arah bahasa antarmuka</translation>
+      <translation lang="hin">अंतराफलक भाषा की दिशा</translation>
+      <translation lang="mal">ഇന്റർഫേസ് ഭാഷയുടെ ദിശ</translation>
+      <translation lang="es">Dirección del idioma de interfaz</translation>
+      <translation lang="pt">Direção do idioma da interfaze</translation>
+      <translation lang="vi">Hướng ngôn ngữ giao diện</translation>
+      <translation lang="fa">مدیریت زبان رابط</translation>
+      <translation lang="ru">Направление языка интерфейса</translation>
+      <translation lang="de">Schreibrichtung der Benutzersprache</translation>
+      <translation lang="az">İnterfeys dilinin istiqaməti</translation>
+      <translation lang="ar">إتجاه واجهة اللغات</translation>
+      <translation lang="ms">Hala tuju antara muka Bahasa</translation>
+      <translation lang="bo">སྐད་ཡིག་གི་ཀློག་ཕྱོགས།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Layout_Direction_Text">
+      <translation lang="en">Direction of current text</translation>
+      <translation lang="fr">Direction du texte actuel</translation>
+      <translation lang="tr">Mevcut metnin yönü</translation>
+      <translation lang="id">Arah teks saat ini</translation>
+      <translation lang="hin">वर्तमान पाठ की दिशा</translation>
+      <translation lang="mal">നിലവിലുള്ള ടെക്സ്റ്റിന്റെ ദിശ</translation>
+      <translation lang="es">Dirección del texto actual</translation>
+      <translation lang="pt">Direção do texto atual</translation>
+      <translation lang="vi">Hướng văn bản hiện hành</translation>
+      <translation lang="fa">مدیریت متن فعلی</translation>
+      <translation lang="ru">Направление текущего текста</translation>
+      <translation lang="de">Schreibrichtung des aktuellen Textes</translation>
+      <translation lang="az">Cari mətnin istiqaməti</translation>
+      <translation lang="ar">إتجاه النص الحالي</translation>
+      <translation lang="ms">Arahan teks semasa</translation>
+      <translation lang="bo">ཡིག་ཆ་འདིའི་ཀློག་ཕྱོགས།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Audio_Highlight_Phrase">
+      <translation lang="en">Highlight synchronized phrases</translation>
+      <translation lang="es">Resaltar las frases sincronizadas</translation>
+      <translation lang="fr">Phrases synchronisées en jaune</translation>
+      <translation lang="pt">Destacar frases sincronizadas</translation>
+      <translation lang="zh">突出显示同步短语</translation>
+      <translation lang="vi">Làm nổi bật các cụm từ đồng bộ</translation>
+      <translation lang="fa">برجسته کردن عبارات هم گام</translation>
+      <translation lang="ru">Выделять читаемые фразы</translation>
+      <translation lang="de">Synchronisierte Wortgruppen farblich markieren</translation>
+      <translation lang="id">Menyoroti frasa yang disinkronkan</translation>
+      <translation lang="az">Sinxronlaşdırılmış ifadələri vurğula</translation>
+      <translation lang="ar">عرض الجمل المتطباقة بالأصفر</translation>
+      <translation lang="ms">Serlahkan frasa disegerakkan</translation>
+      <translation lang="bo">ཚིག་དུམ་ལ་ནན་རྟགས་བཀོད་པ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Audio_Highlight_Phrase_Summary">
+      <translation lang="en">Show current phrase in yellow when playing audio</translation>
+      <translation lang="es">Mostrar la frase actual en amarillo al reproducir el audio</translation>
+      <translation lang="fr">Afficher la phrase en cours en jaune lors de la lecture audio</translation>
+      <translation lang="pt">Exibir frase atual em amarelo enquanto tocando áudio</translation>
+      <translation lang="vi">Hiển thị cụm từ hiện hành bằng màu vàng khi chạy âm thanh</translation>
+      <translation lang="fa">هنگام پخش صوتی٬ عبارات فعلی زردرنگ نشان داده شود</translation>
+      <translation lang="ru">Выделять читаемую фразу желтым цветом</translation>
+      <translation lang="de">Beim Abspielen des Tons die entsprechende Wortgruppe gelb markieren</translation>
+      <translation lang="id">Menyoroti frasa dengan warna kuning ketika putar audio.</translation>
+      <translation lang="az">Səs oynarkən cari sözləri sarı rəngdə göstərin</translation>
+      <translation lang="ar">عرض الجملة الجارية حالياً باللون الأصفر</translation>
+      <translation lang="ms">Tunjukkan frasa semasa dengan warna kuning apabila memainkan audio</translation>
+      <translation lang="bo">སྒྲ་བཏང་བ་དང་ལྷན་ད་ལྟའི་ཚིག་དུམ་དེ་ཚོན་མདོག་སེར་པོའི་ནང་སྟོན།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Audio_Speed">
+      <translation lang="en">Playback speed</translation>
+      <translation lang="fr">Vitesse de lecture</translation>
+      <translation lang="fa">سرعت پخش</translation>
+      <translation lang="ru">Скорость воспроизведения</translation>
+      <translation lang="es">Velocidad de reproducción</translation>
+      <translation lang="pt">Velocidade de reprodução</translation>
+      <translation lang="de">Abspielgeschwindigkeit</translation>
+      <translation lang="id">Pengaturan kecepatan audio</translation>
+      <translation lang="az">Oynatma sürəti</translation>
+      <translation lang="ar">سرعة القرائة</translation>
+      <translation lang="ms">Kelajuan main semula</translation>
+      <translation lang="bo">སྒྲའི་མགྱོགས་ཚད།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Audio_Speed_Normal">
+      <translation lang="en">Normal</translation>
+      <translation lang="fr">Normale</translation>
+      <translation lang="es">Normal</translation>
+      <translation lang="fa">معمولی</translation>
+      <translation lang="ru">Нормальная</translation>
+      <translation lang="pt">Normal</translation>
+      <translation lang="de">Normal</translation>
+      <translation lang="id">Normal</translation>
+      <translation lang="az">Normal</translation>
+      <translation lang="ar">متوسط</translation>
+      <translation lang="ms">Normal</translation>
+      <translation lang="bo">རྒྱུན་ལྡན།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Audio_Access_Method">
+      <translation lang="en">Audio download or streaming</translation>
+      <translation lang="fr">Streaming ou téléchargement audio</translation>
+      <translation lang="bo">སྒྲ་ཕབ་ལེན་བྱེད་དམ། ཡང་ན་སྒྲ་མུ་མཐུད་ནས་</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Audio_Access_Method_Download">
+      <translation lang="en">Download audio files</translation>
+      <translation lang="fr">Télécharger fichiers audio</translation>
+      <translation lang="bo">སྒྲ་ཕབ་ལེན།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Audio_Access_Method_Stream">
+      <translation lang="en">Stream audio files</translation>
+      <translation lang="fr">Streaming audio</translation>
+      <translation lang="bo">སྒྲ་མུ་མཐུད་ནས་</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Audio_Download_Mode">
+      <translation lang="en">Audio file download</translation>
+      <translation lang="fr">Téléchargement de fichiers audio</translation>
+      <translation lang="fa">دانلود فایل صوتی</translation>
+      <translation lang="ru">Скачивание аудиофайла</translation>
+      <translation lang="es">Descargar archivos de audio</translation>
+      <translation lang="pt">Baixar arquivo de áudio</translation>
+      <translation lang="de">Herunterladen der Audiodatei</translation>
+      <translation lang="id">Unduhan file audio</translation>
+      <translation lang="az">Audio faylını yükləyin</translation>
+      <translation lang="ar">تحميل الملف الصوتي</translation>
+      <translation lang="ms">Serlahkan frasa disegerakkan</translation>
+      <translation lang="bo">སྒྲའི་ཡིག་ཆ་ཕབ་ལེན།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Audio_Download_Prompt">
+      <translation lang="en">Always ask before downloading</translation>
+      <translation lang="fr">Demander avant de télécharger</translation>
+      <translation lang="fa">همیشه قبل از دانلود اجازه گرفته شود</translation>
+      <translation lang="ru">Всегда спрашивать перед скачиванием</translation>
+      <translation lang="es">Siempre preguntar antes de descargar</translation>
+      <translation lang="pt">Sempre perguntar antes de baixar</translation>
+      <translation lang="de">Vor dem Herunterladen immer fragen</translation>
+      <translation lang="id">Selalu bertanya sebelum mengunduh</translation>
+      <translation lang="az">Yükləməzdən əvvəl həmişə soruş</translation>
+      <translation lang="ar">الإستئذان قبل التحميل</translation>
+      <translation lang="ms">Sentiasa tanya sebelum memuat turun</translation>
+      <translation lang="bo">ཕབ་ལེན་མ་བྱས་སྔོན་རྒྱུན་དུ་དྲི་བ་ཕྲིས།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Audio_Download_Automatic">
+      <translation lang="en">Download automatically</translation>
+      <translation lang="fr">Télécharger automatiquement</translation>
+      <translation lang="fa">دانلود اتوماتیک وار</translation>
+      <translation lang="ru">Скачивать автоматически</translation>
+      <translation lang="es">Descargar automáticamente</translation>
+      <translation lang="pt">Baixar automaticamente</translation>
+      <translation lang="de">Automatisch herunterladen</translation>
+      <translation lang="id">Mengunduh secara otomatis</translation>
+      <translation lang="az">Avtomatik yüklə</translation>
+      <translation lang="ar">التحميل بصورة الية</translation>
+      <translation lang="ms">Muat turun secara automatik</translation>
+      <translation lang="bo">རང་འགུལ་གྱིས་ཕབ་ལེན།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Audio_Download_Automatic_Wifi">
+      <translation lang="en">Download automatically if using WiFi</translation>
+      <translation lang="fr">Télécharger automatiquement si vous êtes sur WiFi</translation>
+      <translation lang="fa">دانلود اتوماتیک وار هنگام استفاده از WiFi</translation>
+      <translation lang="ru">Скачивать автоматически при подключении по WiFi</translation>
+      <translation lang="es">Descargar automáticamente si usa WiFi</translation>
+      <translation lang="pt">Baixar automaticamente usando a rede sem fio</translation>
+      <translation lang="de">Automatisch herunterladen wenn WLAN genutzt wird</translation>
+      <translation lang="id">Mengunduh secara otomatis kalau ada WiFi</translation>
+      <translation lang="az">WiFi istifadə edərkən avtomatik olaraq yüklə</translation>
+      <translation lang="ar">التحميل بصورة الية فحلت إستعمال وفي</translation>
+      <translation lang="ms">Muat turun secara automatik jika menggunakan WiFi</translation>
+      <translation lang="bo">སྐུད་མེད་དྲ་ལ་མཐུད་དུས་རང་འགུལ་གྱིས་ཕབ་ལེན་བྱེད།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Keep_Screen_On">
+      <translation lang="en">Keep screen on</translation>
+      <translation lang="fr">Garder l&apos;écran allumé</translation>
+      <translation lang="fa">روشن نگه داشتن صفحه نمایش</translation>
+      <translation lang="ru">Не выключать экран</translation>
+      <translation lang="es">Mantener la pantalla encendida</translation>
+      <translation lang="pt">Manter a tela ligada</translation>
+      <translation lang="de">Display eingeschaltet lassen</translation>
+      <translation lang="id">Layar terus menyala</translation>
+      <translation lang="az">Ekranı açıq saxla</translation>
+      <translation lang="ar">ترك الشاشة تعمل</translation>
+      <translation lang="ms">Teruskan skrin</translation>
+      <translation lang="bo">འཆར་ངོས་མུ་མཐུད་ནས་སྟོན།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Share_Usage_Data">
+      <translation lang="en">Share usage data</translation>
+      <translation lang="fr">Partager des données d&apos;utilisation</translation>
+      <translation lang="pt">Compartilhar dados utilizados</translation>
+      <translation lang="es">Compartir datos de uso</translation>
+      <translation lang="de">Nutzerdaten weitergeben</translation>
+      <translation lang="id">Membagi data penggunaan</translation>
+      <translation lang="az">İstifadə məlumatlarını paylaş</translation>
+      <translation lang="ar">مشاركة البيانات المتعلقة بالإستخدام</translation>
+      <translation lang="ms">Kongsi data penggunaan</translation>
+      <translation lang="ru">Поделиться данными об использовании</translation>
+      <translation lang="bo">བཀོལ་བྱའི་ཡིག་ཆ་བརྒྱུད་སྐུར།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Daily_Reminder">
+      <translation lang="en">Daily reminder</translation>
+      <translation lang="fr">Rappel quotidien</translation>
+      <translation lang="ru">Ежедневное напоминание</translation>
+      <translation lang="bo">ཉིན་རེའི་དྲན་གསོ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Daily_Reminder_Time">
+      <translation lang="en">Time for daily reminder</translation>
+      <translation lang="fr">L&apos;heure du rappel quotidien</translation>
+      <translation lang="ru">Время ежедневного напоминания</translation>
+      <translation lang="bo">ཉིན་རེའི་དྲན་གསོའི་དུས་ཚོད།</translation>
+    </translation-mapping>
+    <translation-mapping id="Notification_Daily_Reminder_Title">
+      <translation lang="en">Daily Reminder</translation>
+      <translation lang="fr">Rappel quotidien</translation>
+      <translation lang="ru">Ежедневное напоминание</translation>
+      <translation lang="bo">ཉིན་རེའི་དྲན་གསོ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Notification_Daily_Reminder_Message">
+      <translation lang="en">It&apos;s time to read!</translation>
+      <translation lang="fr">C&apos;est le moment de lire !</translation>
+      <translation lang="ru">Время читать</translation>
+      <translation lang="bo">དཔེ་ཀློག་གི་དུས་ཚོད་རེད།</translation>
+    </translation-mapping>
+    <translation-mapping id="Notification_Channel_Name_Messages">
+      <translation lang="en">Messages</translation>
+      <translation lang="fr">Messages</translation>
+      <translation lang="bo">འཕྲིན་ཐུང་།</translation>
+    </translation-mapping>
+    <translation-mapping id="Notification_Channel_Name_Daily_Reminder">
+      <translation lang="en">Daily Reminder</translation>
+      <translation lang="fr">Rappel quotidien</translation>
+      <translation lang="es">Recordatorio diario</translation>
+      <translation lang="bo">ཉིན་རེའི་དྲན་གསོ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Notification_Please_Allow">
+      <translation lang="en">This app would like to send you notifications.</translation>
+      <translation lang="fr">Veuillez autoriser cette application à vous envoyer des notifications.</translation>
+      <translation lang="ru">Разрешить этому приложению посылать уведомления</translation>
+      <translation lang="bo">མཉེན་ཆས་འདིས་ཁྱེད་ལ་གསར་བརྡ་ཁག་གཏོང་ཡོང་།</translation>
+    </translation-mapping>
+    <translation-mapping id="Notification_Please_Allow_Info">
+      <translation lang="en">Please allow the notification if you would like to receive daily reminders.</translation>
+      <translation lang="fr">Vous pouvez recevoir des rappels quotidiens.</translation>
+      <translation lang="ru">Вы можете получать ежедневные напоминания.</translation>
+      <translation lang="bo">གལ་སྲིད་ཁྱེད་ལ་ཉིན་རེའི་གསར་བརྡ་འབྱོར་འདོད་ཡོད་ན་གསར་བརྡ་ལ་ཆོག་མཆན་སྤྲོད་རོགས།</translation>
+    </translation-mapping>
+    <translation-mapping id="Quiz_Score_Page_Message_Before">
+      <translation lang="en">You scored</translation>
+      <translation lang="fr">Vous avez obtenu un score de</translation>
+      <translation lang="bo">ཁྱེད་ཀྱིས་དྲི་བ་ ￬ ཡི་ལན་འགྲིག་འདུག</translation>
+    </translation-mapping>
+    <translation-mapping id="Quiz_Score_Page_Message_After">
+      <translation lang="en">out of %n% questions</translation>
+      <translation lang="fr">sur %n% questions</translation>
+      <translation lang="bo">ཁྱོན་བསྡོམས་དྲི་བ་ %n% ཡོད།</translation>
+    </translation-mapping>
+    <translation-mapping id="Text_Copied">
+      <translation lang="en">Text copied</translation>
+      <translation lang="fr">Texte copié</translation>
+      <translation lang="tr">Metin kopyalandı</translation>
+      <translation lang="id">Teks disalin</translation>
+      <translation lang="hin">टेक्स्ट की प्रतिलिपि बनाई गई</translation>
+      <translation lang="mal">ടെക്സ്റ്റ് പകർത്തി</translation>
+      <translation lang="es">Texto copiado</translation>
+      <translation lang="pt">Texto copiado</translation>
+      <translation lang="zh">文本复制</translation>
+      <translation lang="vi">Văn bản đã được chép</translation>
+      <translation lang="fa">متن کپی شد</translation>
+      <translation lang="ru">Текст скопирован</translation>
+      <translation lang="de">Text kopiert</translation>
+      <translation lang="az">Mətn Köçürülüb</translation>
+      <translation lang="ar">نص منسوخ</translation>
+      <translation lang="ms">Teks yang disalin</translation>
+      <translation lang="bo">ཡིག་ཆ་ངོ་བཤུ་བྱས་ཡོད།</translation>
+    </translation-mapping>
+    <translation-mapping id="Version_Number">
+      <translation lang="en">Version %s</translation>
+      <translation lang="fr">Version %s</translation>
+      <translation lang="tr">Sürüm %s</translation>
+      <translation lang="es">Versión %s</translation>
+      <translation lang="pt">Versão%s</translation>
+      <translation lang="zh">版本号</translation>
+      <translation lang="vi">Phiên bản %s</translation>
+      <translation lang="fa">نسخه ٪s</translation>
+      <translation lang="ru">Версия %s</translation>
+      <translation lang="de">Version %s</translation>
+      <translation lang="id">Versi %s</translation>
+      <translation lang="az">Versiya(lar) %s</translation>
+      <translation lang="ar">النسخة %s</translation>
+      <translation lang="ms">Versi %s</translation>
+      <translation lang="bo">ཐོན་རིམ་གྱི་བརྒྱ་ཆ་%</translation>
+    </translation-mapping>
+    <translation-mapping id="Security_Calculator">
+      <translation lang="en">Calculator</translation>
+      <translation lang="fr">Calculatrice</translation>
+      <translation lang="es">Calculadora</translation>
+      <translation lang="ru">Калькулятор</translation>
+      <translation lang="pt">Calculadora</translation>
+      <translation lang="bo">རྩིས་ཆས།</translation>
+    </translation-mapping>
+    <translation-mapping id="Security_Device_Id">
+      <translation lang="en">Device ID</translation>
+      <translation lang="fr">ID de l&apos;appareil</translation>
+      <translation lang="es">ID del aparato</translation>
+      <translation lang="ru">ID устройства</translation>
+      <translation lang="pt">ID do dispositivo</translation>
+      <translation lang="id">ID alat</translation>
+      <translation lang="ar">هوية الجهاز</translation>
+      <translation lang="ms">ID peranti</translation>
+      <translation lang="bo">འཕྲུལ་ཆ་དེའི་ID</translation>
+    </translation-mapping>
+    <translation-mapping id="Security_Enter_PIN">
+      <translation lang="en">Please enter your PIN</translation>
+      <translation lang="fr">Veuillez saisir votre code</translation>
+      <translation lang="ru">Пожалуйста, введите ваш ПИН-код</translation>
+      <translation lang="es">Por favor ingrese su PIN</translation>
+      <translation lang="pt">Favor digite seu PIN</translation>
+      <translation lang="id">Masukkan PIN</translation>
+      <translation lang="ar">رجاءاً أدخل كلمة التثبيت</translation>
+      <translation lang="bo">PIN གསང་ཨང་འཇུག་རོགས།</translation>
+    </translation-mapping>
+    <translation-mapping id="Security_Incorrect_PIN">
+      <translation lang="en">Incorrect PIN</translation>
+      <translation lang="fr">Code incorrect</translation>
+      <translation lang="ru">Неверный ПИН-код</translation>
+      <translation lang="es">PIN Incorrecto</translation>
+      <translation lang="pt">PIN incorreto</translation>
+      <translation lang="id">PIN salah</translation>
+      <translation lang="ar">التثبيت غير صحيح</translation>
+      <translation lang="bo">PIN གསང་ཨང་ནོར་འདུག</translation>
+    </translation-mapping>
+    <translation-mapping id="User_Missing_Fields">
+      <translation lang="en">Please complete the following fields to continue:</translation>
+      <translation lang="fr">Veuillez remplir les champs suivants pour continuer :</translation>
+      <translation lang="bo">རྒྱུན་མཐུད་པར་གཤམ་བཀོད་ཀྱི་ལས་ཚན་རྣམས་ཆ་ཚང་བ་བསྒྲུབ་རོགས།</translation>
+    </translation-mapping>
+    <translation-mapping id="User_Check_Internet">
+      <translation lang="en">Please check that you have an internet connection, then press the button again to continue.</translation>
+      <translation lang="fr">Veuillez vérifier que vous disposez d&apos;une connexion Internet, puis appuyez à nouveau sur le bouton pour continuer.</translation>
+      <translation lang="bo">ཁྱེད་རང་དྲ་རྒྱར་མཐུད་ཡོད་མེད་བལྟ་རོགས། དེ་ནས་གནོན་ཐེབས་ལ་བསྣུན་ཏེ་མུ་མཐུད།</translation>
+    </translation-mapping>
+    <translation-mapping id="User_Database_Sign_In_Error">
+      <translation lang="en">Sorry, we were unable to sign in to the database server.</translation>
+      <translation lang="fr">Désolé, nous n&apos;avons pas pu nous connecter au serveur de la base de données.</translation>
+      <translation lang="bo">དགོངས་དག ང་ཚོས་གཞི་གྲངས་བརྟེན་གནས་ཀྱི་གསོག་མཛོད་ནང་ནང་འཛུལ་བྱ་ཐུབ་མ་སོང་།</translation>
+    </translation-mapping>
+    <translation-mapping id="User_Database_Add_User_Error">
+      <translation lang="en">Sorry, we were unable to add this information to the online database.</translation>
+      <translation lang="fr">Désolé, nous n&apos;avons pas pu ajouter cette information à la base de données en ligne.</translation>
+      <translation lang="bo">དགོངས་དག ང་ཚོས་གནས་ཚུལ་འདི་དྲ་ཐོག་གཞི་གྲངས་རྟེན་གནས་ནང་བསྣུན་ཐུབ་མ་སོང་།</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_en">
+      <translation lang="en">English</translation>
+      <translation lang="fr">Anglais</translation>
+      <translation lang="es">Inglés</translation>
+      <translation lang="tr">İngilizce</translation>
+      <translation lang="id">Inggris</translation>
+      <translation lang="hin">अंग्रेजी</translation>
+      <translation lang="mal">ഇംഗ്ലീഷ്</translation>
+      <translation lang="pt">Inglês</translation>
+      <translation lang="zh">英文</translation>
+      <translation lang="vi">Tiếng Anh</translation>
+      <translation lang="fa">انگلیسی</translation>
+      <translation lang="ru">Английский</translation>
+      <translation lang="de">Englisch</translation>
+      <translation lang="az">İngilis dili</translation>
+      <translation lang="ar">الأنجليزية</translation>
+      <translation lang="bo">ཨིན་ཇིའི་སྐད་ཡིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_fr">
+      <translation lang="en">French</translation>
+      <translation lang="fr">Français</translation>
+      <translation lang="es">Francés</translation>
+      <translation lang="tr">Fransızca</translation>
+      <translation lang="id">Perancis</translation>
+      <translation lang="hin">फ्रांसीसी</translation>
+      <translation lang="mal">ഫ്രഞ്ച്</translation>
+      <translation lang="pt">Francês</translation>
+      <translation lang="fa">فرانسوی</translation>
+      <translation lang="ru">Французский</translation>
+      <translation lang="de">Französisch</translation>
+      <translation lang="az">Fransız dili</translation>
+      <translation lang="ar">الفرنسية</translation>
+      <translation lang="bo">ཧྥ་རན་སིའི་སྐད་ཡིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_ar">
+      <translation lang="en">Arabic</translation>
+      <translation lang="fr">Arabe</translation>
+      <translation lang="ar">العربية</translation>
+      <translation lang="es">Árabe</translation>
+      <translation lang="ru">Арабский</translation>
+      <translation lang="bo">ཨ་རབ་སྐད་ཡིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_de">
+      <translation lang="en">German</translation>
+      <translation lang="fr">Allemand</translation>
+      <translation lang="de">Deutsch</translation>
+      <translation lang="es">Alemán</translation>
+      <translation lang="id">Jerman</translation>
+      <translation lang="az">Alman dili</translation>
+      <translation lang="ru">Немецкий</translation>
+      <translation lang="bo">འཇར་མན་སྐད་ཡིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_id">
+      <translation lang="en">Indonesian</translation>
+      <translation lang="fr">Indonesien</translation>
+      <translation lang="es">Indonesio</translation>
+      <translation lang="tr">Endonezyaca</translation>
+      <translation lang="id">Bahasa Indonesia</translation>
+      <translation lang="hin">इन्डोनेशियाई</translation>
+      <translation lang="mal">ഇന്തോനേഷ്യന്‍</translation>
+      <translation lang="pt">Indonésio</translation>
+      <translation lang="fa">اندونزی</translation>
+      <translation lang="ru">Индонезийский</translation>
+      <translation lang="de">Indonesisch</translation>
+      <translation lang="az">İndoneziya dili</translation>
+      <translation lang="ar">اندونيسية</translation>
+      <translation lang="bo">ཧིན་དྷི་ནི་ཞི་ཡའི་སྐད་ཡིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_pt">
+      <translation lang="en">Portuguese</translation>
+      <translation lang="fr">Portugais</translation>
+      <translation lang="es">Portugués</translation>
+      <translation lang="tr">Portekizce</translation>
+      <translation lang="id">Portugis</translation>
+      <translation lang="hin">पुर्तगाली</translation>
+      <translation lang="mal">പോര്‍ച്ചുഗീസ്</translation>
+      <translation lang="pt">Português</translation>
+      <translation lang="fa">پرتقالی</translation>
+      <translation lang="ru">Португальский</translation>
+      <translation lang="de">Portugiesisch</translation>
+      <translation lang="az">Portuqaliya dili</translation>
+      <translation lang="ar">برتغالية</translation>
+      <translation lang="bo">ཕོར་ཆུ་གྷའི་སྐད་ཡིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_ru">
+      <translation lang="en">Russian</translation>
+      <translation lang="fr">Russe</translation>
+      <translation lang="es">Ruso</translation>
+      <translation lang="tr">Rusça</translation>
+      <translation lang="id">Rusia</translation>
+      <translation lang="hin">रूसी</translation>
+      <translation lang="mal">റഷ്യന്‍</translation>
+      <translation lang="pt">Russo</translation>
+      <translation lang="fa">روسی</translation>
+      <translation lang="ru">Русский</translation>
+      <translation lang="de">Russisch</translation>
+      <translation lang="az">Rus dili</translation>
+      <translation lang="ar">روسية</translation>
+      <translation lang="bo">ཨུ་རུ་སིའི་སྐད་ཡིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_es">
+      <translation lang="en">Spanish</translation>
+      <translation lang="fr">Espagnol</translation>
+      <translation lang="es">Español</translation>
+      <translation lang="tr">İspanyolca</translation>
+      <translation lang="id">Spanyol</translation>
+      <translation lang="hin">स्पेनिश</translation>
+      <translation lang="mal">സ്പാനിഷ്‌</translation>
+      <translation lang="pt">Espanhol</translation>
+      <translation lang="fa">اسپانیایی</translation>
+      <translation lang="ru">Испанский</translation>
+      <translation lang="de">Spanisch</translation>
+      <translation lang="az">İspan dili</translation>
+      <translation lang="ar">إسبانية</translation>
+      <translation lang="bo">སི་པན་གྱི་སྐད་ཡིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_tr">
+      <translation lang="en">Turkish</translation>
+      <translation lang="es">Turco</translation>
+      <translation lang="fr">Turc</translation>
+      <translation lang="tr">Türkçe</translation>
+      <translation lang="pt">Turco</translation>
+      <translation lang="fa">ترکی</translation>
+      <translation lang="ru">Турецкий</translation>
+      <translation lang="de">Türkisch</translation>
+      <translation lang="id">Turki</translation>
+      <translation lang="az">Türk dili</translation>
+      <translation lang="ar">تركية</translation>
+      <translation lang="bo">ཏིར་ཀིའི་སྐད་ཡིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_fa">
+      <translation lang="en">Farsi</translation>
+      <translation lang="fr">Farsi</translation>
+      <translation lang="es">Farsi</translation>
+      <translation lang="pt">Farsi</translation>
+      <translation lang="de">Farsi</translation>
+      <translation lang="id">Farsi</translation>
+      <translation lang="az">Fars dili</translation>
+      <translation lang="ar">فارسية</translation>
+      <translation lang="ru">Фарси</translation>
+      <translation lang="bo">ཧྥར་སིའི་སྐད་ཡིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_uk">
+      <translation lang="en">Ukrainian</translation>
+      <translation lang="fr">Ukrainien</translation>
+      <translation lang="tr">Ukraynaca</translation>
+      <translation lang="id">Ukraina</translation>
+      <translation lang="hin">यूक्रेनी</translation>
+      <translation lang="mal">ഉക്രേനിയന്‍</translation>
+      <translation lang="es">Ucraniano</translation>
+      <translation lang="pt">Ucraniano</translation>
+      <translation lang="fa">اوکرانی</translation>
+      <translation lang="ru">Украинский</translation>
+      <translation lang="de">Ukrainisch</translation>
+      <translation lang="az">Ukrayna dili</translation>
+      <translation lang="ar">أكرانية</translation>
+      <translation lang="bo">ཡུས་ཁི་རན་གྱི་སྐད་ཡིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_zh">
+      <translation lang="en">Chinese (Simplified)</translation>
+      <translation lang="fr">Chinois (simplifié)</translation>
+      <translation lang="tr">Çince (Basitleştirilmiş)</translation>
+      <translation lang="id">Cina</translation>
+      <translation lang="hin">चीनी</translation>
+      <translation lang="mal">ചൈനീസ്</translation>
+      <translation lang="es">Chino (Simplificado)</translation>
+      <translation lang="pt">Chinês (Simplificado)</translation>
+      <translation lang="zh">中文（简体)</translation>
+      <translation lang="fa">چینی( ساده شده )</translation>
+      <translation lang="ru">Китайский</translation>
+      <translation lang="de">Chinesisch (Kurzzeichen)</translation>
+      <translation lang="az">Çin (Sadələşdirilmiş) dili</translation>
+      <translation lang="ar">صينية مبسطة</translation>
+      <translation lang="bo">རྒྱ་ནག་གི་སྐད་ཡིག (གསར་མ།)</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_mal">
+      <translation lang="en">Malayalam</translation>
+      <translation lang="fr">Malayalam</translation>
+      <translation lang="fa">مالایالام</translation>
+      <translation lang="ru">Малаялам</translation>
+      <translation lang="es">Malabar</translation>
+      <translation lang="pt">Malaio</translation>
+      <translation lang="de">Malayalam</translation>
+      <translation lang="id">Melayu</translation>
+      <translation lang="az">Malayalam dili</translation>
+      <translation lang="ar">ملايالم</translation>
+      <translation lang="bo">མ་ལ་ཡ་ལམ་གྱི་སྐད་ཡིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_vi">
+      <translation lang="en">Vietnamese</translation>
+      <translation lang="fr">Vietnamien</translation>
+      <translation lang="es">Vietnamita</translation>
+      <translation lang="pt">Vietnamita</translation>
+      <translation lang="de">Vietnamesisch</translation>
+      <translation lang="id">Vietnam</translation>
+      <translation lang="az">Vyetnam dili</translation>
+      <translation lang="ar">فيتنامية</translation>
+      <translation lang="vi">ngôn ngữ tiếng Việt</translation>
+      <translation lang="ru">Вьетнамский</translation>
+      <translation lang="bo">ཝེ་ཐི་ནམ་གྱི་སྐད་ཡིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_az">
+      <translation lang="en">Azerbaijani</translation>
+      <translation lang="fr">Azéri</translation>
+      <translation lang="hi">आज़रबाइजानी</translation>
+      <translation lang="te">అజర్బైజాని</translation>
+      <translation lang="de">Aserbaidschanisch</translation>
+      <translation lang="fa">آذری</translation>
+      <translation lang="ko">아제르바이잔어</translation>
+      <translation lang="es">Azerbaiyán</translation>
+      <translation lang="ru">Азербайджанский</translation>
+      <translation lang="bo">ཨ་ཟར་བྷ་ཇ་ནའི་སྐད་ཡིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_ms">
+      <translation lang="en">Bahasa Melayu</translation>
+      <translation lang="fr">Bahasa Melayu</translation>
+      <translation lang="es">Bahasa Melayu</translation>
+      <translation lang="ru">Малайский</translation>
+      <translation lang="bo">བྷ་ཧ་ས་མེས་ལ་ཡིའི་སྐད་ཡིག</translation>
+    </translation-mapping>
+    <translation-mapping id="Chapter_Introduction_Title">
+      <translation lang="en">Introduction</translation>
+      <translation lang="fr">Introduction</translation>
+      <translation lang="es">Introducción</translation>
+      <translation lang="pt">Introdução</translation>
+      <translation lang="ru">Предисловие</translation>
+      <translation lang="uk">Передмова</translation>
+      <translation lang="tr">Giriş</translation>
+      <translation lang="id">Pengantar</translation>
+      <translation lang="zh">引言</translation>
+      <translation lang="hin">परिचय</translation>
+      <translation lang="mal">ആമുഖം</translation>
+      <translation lang="vi">Giới thiệu</translation>
+      <translation lang="fa">پیشگفتار</translation>
+      <translation lang="de">Einführung</translation>
+      <translation lang="az">Giriş</translation>
+      <translation lang="ar">مقدمة</translation>
+      <translation lang="ms">Pengenalan</translation>
+      <translation lang="bo">ངོ་སྤྲོད།</translation>
+    </translation-mapping>
+    <translation-mapping id="Chapter_Introduction_Symbol">
+      <translation lang="en">i</translation>
+      <translation lang="fr">i</translation>
+      <translation lang="es">i</translation>
+      <translation lang="pt">i</translation>
+      <translation lang="ru">п</translation>
+      <translation lang="uk">п</translation>
+      <translation lang="tr">I</translation>
+      <translation lang="id">p</translation>
+      <translation lang="zh">引</translation>
+      <translation lang="hin">प.</translation>
+      <translation lang="mal">ആ.</translation>
+      <translation lang="vi">GT</translation>
+      <translation lang="fa">پ</translation>
+      <translation lang="de">i</translation>
+      <translation lang="az">g</translation>
+      <translation lang="ar">مق</translation>
+      <translation lang="ms">i</translation>
+      <translation lang="bo">ལེའུ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Share_Apk_Link">
+      <translation lang="en">Share Link to App Installer File</translation>
+      <translation lang="fr">Partager le lien vers le fichier d&apos;installation de l&apos;appli</translation>
+      <translation lang="es">Compartir enlace al archivo del instalador de la aplicación</translation>
+      <translation lang="pt">Compartilhar link para o Arquivo de Instalação do Aplicativo</translation>
+      <translation lang="tr">Uygulama Yükleyici Dosyasının Bağlantısını Paylaş</translation>
+      <translation lang="id">Bagikan tautan ke file aplikasi (APK)</translation>
+      <translation lang="mal">ആപ്പ് ഇൻസ്റ്റാളർ ഫയലിലേക്ക് ലിങ്ക് പങ്കിടുക</translation>
+      <translation lang="zh">分享应用程序安装程序文件的链接</translation>
+      <translation lang="vi">Chia sẻ liên kết đến các tệp cài đặt App</translation>
+      <translation lang="fa">پیوند فایل نصب برنامه را به اشتراک بگذارید</translation>
+      <translation lang="ru">Поделиться ссылкой на файл установщика приложения (.apk)</translation>
+      <translation lang="de">Link zur App-Datei weitergeben</translation>
+      <translation lang="az">Tətbiq Yükləyicisi Faylına bağlantı paylaş</translation>
+      <translation lang="ar">مشاركة الرابط إلى ملف مثبت التطبيق</translation>
+      <translation lang="hi">ऐप इंस्टालर फ़ाइल का लिंक साझा करें</translation>
+      <translation lang="te">యాప్ ఇన్‌స్టాలర్ ఫైల్‌కు లింక్‌ను షేర్ చేయండి</translation>
+      <translation lang="ko">앱 설치 파일에 대한 링크 공유</translation>
+      <translation lang="nl">Delen link naar installatiebestand van app</translation>
+      <translation lang="bo">མཉེན་ཆས་ཕབ་ལེན་ཡིག་ཆ་ལ་དྲ་ཐག་མཐུད།</translation>
+    </translation-mapping>
+    <translation-mapping id="Download_APK">
+      <translation lang="en">Download APK</translation>
+      <translation lang="fr">Télécharger l&apos;APK</translation>
+      <translation lang="es">Descargar APK</translation>
+      <translation lang="pt">Baixar APK</translation>
+      <translation lang="tr">APK indir</translation>
+      <translation lang="id">Unduh APK</translation>
+      <translation lang="mal">APK ഡൗൺലോഡ് ചെയ്യുക</translation>
+      <translation lang="zh">下载APK</translation>
+      <translation lang="vi">Tải xuống APK</translation>
+      <translation lang="fa">APK را بارگیری کنید</translation>
+      <translation lang="ru">Скачать APK</translation>
+      <translation lang="de">APK herunterladen</translation>
+      <translation lang="az">APK yükləyin</translation>
+      <translation lang="ar">تحميل APK</translation>
+      <translation lang="hi">डाउनलोड APK</translation>
+      <translation lang="te">APK ని డౌన్‌లోడ్ చేయండి</translation>
+      <translation lang="ko">APK 다운로드</translation>
+      <translation lang="nl">APK downloaden</translation>
+      <translation lang="bo">APK ཕབ་ལེན་བྱོས།</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Repeat_Selection">
+      <translation lang="en">Repeat selection</translation>
+      <translation lang="fr">Répéter la sélection</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Title">
+      <translation lang="en">Settings</translation>
+      <translation lang="fr">Paramètres</translation>
+      <translation lang="es">Configuraciones</translation>
+      <translation lang="pt">Configurações</translation>
+      <translation lang="tr">Ayarlar</translation>
+      <translation lang="id">Pengaturan</translation>
+      <translation lang="hin">अस्त</translation>
+      <translation lang="mal">ക്രമീകരണങ്ങൾ</translation>
+      <translation lang="zh">设置</translation>
+      <translation lang="vi">Cài đặt</translation>
+      <translation lang="fa">تنظیمات</translation>
+      <translation lang="ru">Настройки</translation>
+      <translation lang="de">Einstellungen</translation>
+      <translation lang="az">Parametrlər</translation>
+      <translation lang="ar">إعدادات</translation>
+      <translation lang="ms">Tetapan</translation>
+      <translation lang="bo">སྒྲིག་འགོད།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Category_Text_Display">
+      <translation lang="en">Text Display</translation>
+      <translation lang="fr">Affichage du texte</translation>
+      <translation lang="tr">Metin görüntüleme</translation>
+      <translation lang="id">Tampilan Teks</translation>
+      <translation lang="hin">पाठ का प्रकाशन</translation>
+      <translation lang="mal">ടെക്സ്റ്റ് ഡിസ്പ്ലേ</translation>
+      <translation lang="es">Visualizar texto</translation>
+      <translation lang="pt">Exibição do Texto</translation>
+      <translation lang="zh">文本显示</translation>
+      <translation lang="vi">Hiển thị văn bản</translation>
+      <translation lang="fa">نمایش متن</translation>
+      <translation lang="ru">Отображение текста</translation>
+      <translation lang="de">Textansicht</translation>
+      <translation lang="az">Mətn Ekranı</translation>
+      <translation lang="ar">عرض النص</translation>
+      <translation lang="ms">Paparan Teks</translation>
+      <translation lang="bo">ཡིག་རྐྱང་སྟོན།</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Category_Navigation">
+      <translation lang="en">Navigation</translation>
+      <translation lang="fr">Navigation</translation>
+      <translation lang="es">Navegación</translation>
+      <translation lang="tr">Navigasyon</translation>
+      <translation lang="id">Navigasi</translation>
+      <translation lang="hin">नेविगेशन</translation>
+      <translation lang="mal">നാവിഗേഷൻ</translation>
+      <translation lang="pt">Navegação</translation>
+      <translation lang="zh">导航</translation>
+      <translation lang="vi">Định hướng</translation>
+      <translation lang="fa">هدایت</translation>
+      <translation lang="ru">Навигация</translation>
+      <translation lang="de">Steuerung</translation>
+      <translation lang="az">Naviqasiya</translation>
+      <translation lang="ar">تصفح</translation>
+      <translation lang="ms">Navigasi</translation>
+      <translation lang="bo">ཐད་འཚོལ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Song_List_By_Number">
+      <translation lang="en">BY NUMBER</translation>
+      <translation lang="fr">PAR NUMÉRO</translation>
+      <translation lang="tr">NUMARA GÖRE</translation>
+      <translation lang="id">Urutan Nomor</translation>
+      <translation lang="hin">संख्या से</translation>
+      <translation lang="mal">സംഖ്യ പ്രകാരം</translation>
+      <translation lang="es">POR NÚMERO</translation>
+      <translation lang="pt">POR NÚMERO</translation>
+      <translation lang="vi">BẰNG SỐ</translation>
+      <translation lang="fa">براساس اعداد</translation>
+      <translation lang="ru">ПО НОМЕРУ</translation>
+      <translation lang="de">Nach Liednummer</translation>
+      <translation lang="az">sayı ilə</translation>
+      <translation lang="ar">بالأرقام</translation>
+      <translation lang="ms">IKUT NOMBOR</translation>
+      <translation lang="bo">ཨང་གྲངས་ལྟར།</translation>
+    </translation-mapping>
+    <translation-mapping id="Song_List_By_Title">
+      <translation lang="en">BY TITLE</translation>
+      <translation lang="fr">PAR TITRE</translation>
+      <translation lang="tr">BAŞLIKLA GÖRE</translation>
+      <translation lang="id">Urutan Judul</translation>
+      <translation lang="hin">शीर्षक से</translation>
+      <translation lang="mal">ടൈറ്റിൽ പ്രകാരം</translation>
+      <translation lang="es">POR TÍTULO</translation>
+      <translation lang="pt">POR TÍTULO</translation>
+      <translation lang="ES">POR TÍTULO</translation>
+      <translation lang="vi">BẰNG TỰA ĐỀ</translation>
+      <translation lang="fa">براساس عنوان</translation>
+      <translation lang="ru">ПО НАЗВАНИЮ</translation>
+      <translation lang="de">Nach Titel</translation>
+      <translation lang="az">Adı ilə</translation>
+      <translation lang="ar">حسب العنوان</translation>
+      <translation lang="ms">IKUT TAJUK</translation>
+      <translation lang="bo">མཚན་བྱང་ལྟར།</translation>
+    </translation-mapping>
+    <translation-mapping id="Security_Permission_Denied">
+      <translation lang="en">This device does not have permission to use this app.</translation>
+      <translation lang="fr">Cet appareil n&apos;a pas la permission d&apos;utiliser cette application.</translation>
+      <translation lang="id">Maaf, perangkat ini tidak ada izin menggunakan aplikasi ini.</translation>
+      <translation lang="ar">هذا الجهاز ليس لديه أذن لإستخدام هذا التطبيق</translation>
+      <translation lang="nl">Dit apparaat heeft geen toestemming om deze app te gebruiken.</translation>
+      <translation lang="bo">མཉེན་ཆས་འདི་སྒྲིག་ཆས་འདིའི་ནང་བཀོལ་སྤྱོད་ཀྱི་ཆོག་མཆན་མི་འདུག</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_bo">
+      <translation lang="en">Tibetan</translation>
+      <translation lang="bo">བོད་སྐད།</translation>
+    </translation-mapping>
+  </translation-mappings>
+
+  <images type="launcher">
+    <image width="36" height="36">drawable-ldpi\ic_launcher.png</image>
+    <image width="48" height="48">drawable-mdpi\ic_launcher.png</image>
+    <image width="72" height="72">drawable-hdpi\ic_launcher.png</image>
+    <image width="96" height="96">drawable-xhdpi\ic_launcher.png</image>
+    <image width="144" height="144">drawable-xxhdpi\ic_launcher.png</image>
+    <image width="192" height="192">drawable-xxxhdpi\ic_launcher.png</image>
+    <image width="512" height="512">drawable-web\ic_launcher.png</image>
+  </images>
+
+  <images type="splash">
+    <image width="320" height="480">drawable-mdpi\title_page.png</image>
+    <image width="480" height="800">drawable-hdpi\title_page.png</image>
+    <image width="720" height="1280">drawable-xhdpi\title_page.png</image>
+  </images>
+
+  <images type="illustration">
+    <image width="630" height="359">migtsema07.jpg</image>
+    <image width="627" height="357">migtsema08.jpg</image>
+    <image width="626" height="355">migtsema09.jpg</image>
+    <image width="400" height="150">migtsema06.jpg</image>
+    <image width="400" height="150">migtsema10.jpg</image>
+    <image width="400" height="150">migtsema11.jpg</image>
+    <image width="400" height="150">migtsema12.jpg</image>
+    <image width="400" height="150">migtsema13.jpg</image>
+    <image width="400" height="150">migtsema14.jpg</image>
+    <image width="400" height="150">migtsema15.jpg</image>
+    <image width="400" height="150">migtsema16.jpg</image>
+    <image width="400" height="150">migtsema17.jpg</image>
+    <image width="400" height="150">migtsema18.jpg</image>
+    <image width="400" height="150">migtsema19.jpg</image>
+    <image width="400" height="150">migtsema20.jpg</image>
+    <image width="400" height="150">migtsema21.jpg</image>
+    <image width="400" height="150">migtsema22.jpg</image>
+    <image width="400" height="150">migtsema23.jpg</image>
+    <image width="400" height="150">migtsema24.jpg</image>
+    <image width="400" height="150">migtsema25.jpg</image>
+    <image width="400" height="150">migtsema26.jpg</image>
+    <image width="400" height="150">migtsema27.jpg</image>
+    <image width="400" height="150">migtsema28.jpg</image>
+    <image width="400" height="150">migtsema29.jpg</image>
+    <image width="400" height="150">migtsema30.jpg</image>
+    <image width="400" height="150">migtsema31.jpg</image>
+    <image width="492" height="349">migtsema54.jpg</image>
+    <image width="461" height="371">migtsema55.jpg</image>
+    <image width="435" height="317">migtsema56.jpg</image>
+    <image width="446" height="392">migtsema57.jpg</image>
+    <image width="263" height="150">migtsema01.jpg</image>
+    <image width="261" height="150">migtsema04.jpg</image>
+    <image width="262" height="150">migtsema05.jpg</image>
+    <image width="261" height="150">migtsema03.jpg</image>
+    <image width="267" height="150">migtsema02.jpg</image>
+    <image width="204" height="247">migtsema32.jpg</image>
+    <image width="202" height="300">migtsema33.jpg</image>
+    <image width="351" height="557">migtsema34.jpg</image>
+    <image width="260" height="386">migtsema35.jpg</image>
+    <image width="240" height="140">migtsema36.jpg</image>
+    <image width="240" height="140">migtsema37.jpg</image>
+    <image width="240" height="140">migtsema38.jpg</image>
+    <image width="240" height="140">migtsema39.jpg</image>
+    <image width="240" height="140">migtsema40.jpg</image>
+    <image width="240" height="140">migtsema41.jpg</image>
+  </images>
+
+  <images type="drawer">
+    <image width="576" height="324">drawable-hdpi\nav_drawer.png</image>
+    <image width="768" height="432">drawable-xhdpi\nav_drawer.png</image>
+    <image width="1152" height="648">drawable-xxhdpi\nav_drawer.png</image>
+    <image width="1536" height="864">drawable-xxxhdpi\nav_drawer.png</image>
+  </images>
+
+  <adaptive-icon>
+    <foreground inset="26%">
+      <image>ic_launcher_foreground.png</image>
+    </foreground>
+    <background>
+      <image>ic_launcher_background.png</image>
+      <color value="#FFFFFF"/>
+    </background>
+  </adaptive-icon>
+</app-definition>

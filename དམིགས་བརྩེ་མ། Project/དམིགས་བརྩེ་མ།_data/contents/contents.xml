@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contents>
+
+  <features>
+    <feature name="show-titles" value="true"/>
+    <feature name="show-subtitles" value="false"/>
+    <feature name="show-references" value="false"/>
+    <feature name="show-text-size-button" value="true"/>
+    <feature name="launch-action" value="contents"/>
+    <feature name="navigation-type" value="up"/>
+    <feature name="title-type" value="app-name"/>
+  </features>
+
+  <contents-items>
+    <contents-item id="1">
+      <title lang="default">སྦྱོར་ཀློག</title>
+      <image-filename>migtsema54.jpg</image-filename>
+      <link type="screen" target="1" />
+    </contents-item>
+
+    <contents-item id="2">
+      <title lang="default">བསྡོམས་ཀློག </title>
+      <image-filename>migtsema55.jpg</image-filename>
+      <link type="screen" target="2" />
+    </contents-item>
+
+    <contents-item id="3">
+      <title lang="default">དབྱངས་གྱེར།</title>
+      <image-filename>migtsema56.jpg</image-filename>
+      <link type="screen" target="4" />
+    </contents-item>
+
+    <contents-item id="4">
+      <title lang="default">སྦྱོར་ཀློག</title>
+      <image-filename>migtsema04.jpg</image-filename>
+      <link type="reference" target="B001" />
+    </contents-item>
+
+    <contents-item id="5">
+      <title lang="default">དྲི་རྩེད། དང་པོ།</title>
+      <image-filename>migtsema57.jpg</image-filename>
+      <link type="reference" target="B002" />
+    </contents-item>
+
+    <contents-item id="6">
+      <title lang="default">བསྡོམས་ཀློག</title>
+      <image-filename>migtsema05.jpg</image-filename>
+      <link type="reference" target="B003" />
+    </contents-item>
+
+    <contents-item id="7">
+      <title lang="default">དྲི་རྩེད། གཉིས་པ།</title>
+      <image-filename>migtsema57.jpg</image-filename>
+      <link type="reference" target="B004" />
+    </contents-item>
+
+    <contents-item id="8">
+      <title lang="default">དབྱངས་གྱེར།</title>
+      <image-filename>migtsema01.jpg</image-filename>
+      <link type="reference" target="B005" />
+    </contents-item>
+
+    <contents-item id="9">
+      <title lang="default">དྲི་རྩེད། གསུམ་པ།</title>
+      <image-filename>migtsema57.jpg</image-filename>
+      <link type="reference" target="B006" />
+    </contents-item>
+  </contents-items>
+
+  <contents-screens>
+    <contents-screen id="3">
+      <title lang="default">Home</title>
+      <items>
+        <item id="1" />
+        <item id="2" />
+        <item id="3" />
+      </items>
+    </contents-screen>
+
+    <contents-screen id="1">
+      <title lang="default">སྦྱོར་ཀློག</title>
+      <items>
+        <item id="4" />
+        <item id="5" />
+      </items>
+    </contents-screen>
+
+    <contents-screen id="2">
+      <title lang="default">བསྡོམས་ཀློག </title>
+      <items>
+        <item id="6" />
+        <item id="7" />
+      </items>
+    </contents-screen>
+
+    <contents-screen id="4">
+      <title lang="default">དབྱངས་གྱེར།</title>
+      <items>
+        <item id="8" />
+        <item id="9" />
+      </items>
+    </contents-screen>
+  </contents-screens>
+</contents>
