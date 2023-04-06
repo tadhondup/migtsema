@@ -20,35 +20,35 @@ id དམིགས་བརྩེ་མ།
 
 \page 3
 \m 🔊 པར་རིས་སྟེང་བསྣུན་ནས་སྒྲ་ལ་ཉོན། ཐེངས་གསུམ་རེ་ཀློག
-\m [\fig migtsema06.jpg\fig*](migtsema28.mp3)
-\m [\fig migtsema07.jpg\fig*](migtsema29.mp3)
-\m [\fig migtsema08.jpg\fig*](migtsema30.mp3)
-\m [\fig migtsema09.jpg\fig*](migtsema31.mp3)
+\pc [\fig migtsema12.jpg\fig*](migtsema28.mp3)
+\pc [\fig migtsema13.jpg\fig*](migtsema29.mp3)
+\pc [\fig migtsema14.jpg\fig*](migtsema30.mp3)
+\pc [\fig migtsema15.jpg\fig*](migtsema31.mp3)
 
 \page 4
 \m 🔊 པར་རིས་སྟེང་བསྣུན་ནས་སྒྲ་ལ་ཉོན། ཐེངས་གསུམ་རེ་ཀློག
-\m [\fig migtsema16.jpg\fig*](migtsema32.mp3)
-\m [\fig migtsema17.jpg\fig*](migtsema33.mp3)
-\m [\fig migtsema18.jpg\fig*](migtsema34.mp3)
-\m [\fig migtsema19.jpg\fig*](migtsema35.mp3)
+\pc [\fig migtsema16.jpg\fig*](migtsema32.mp3)
+\pc [\fig migtsema17.jpg\fig*](migtsema33.mp3)
+\pc [\fig migtsema18.jpg\fig*](migtsema34.mp3)
+\pc [\fig migtsema19.jpg\fig*](migtsema35.mp3)
 
 \page 5
 \m 🔊 པར་རིས་སྟེང་བསྣུན་ནས་སྒྲ་ལ་ཉོན། ཐེངས་གསུམ་རེ་ཀློག
-\m [\fig migtsema20.jpg\fig*](migtsema36.mp3)
-\m [\fig migtsema21.jpg\fig*](migtsema37.mp3)
-\m [\fig migtsema22.jpg\fig*](migtsema38.mp3)
-\m [\fig migtsema23.jpg\fig*](migtsema39.mp3)
+\pc [\fig migtsema20.jpg\fig*](migtsema36.mp3)
+\pc [\fig migtsema21.jpg\fig*](migtsema37.mp3)
+\pc [\fig migtsema22.jpg\fig*](migtsema38.mp3)
+\pc [\fig migtsema23.jpg\fig*](migtsema39.mp3)
 
 \page 6
 \m 🔊 པར་རིས་སྟེང་བསྣུན་ནས་སྒྲ་ལ་ཉོན། ཐེངས་གསུམ་རེ་ཀློག
-\m [\fig migtsema24.jpg\fig*](migtsema40.mp3)
-\m [\fig migtsema25.jpg\fig*](migtsema41.mp3)
-\m [\fig migtsema26.jpg\fig*](migtsema42.mp3)
-\m [\fig migtsema27.jpg\fig*](migtsema43.mp3)
+\pc [\fig migtsema24.jpg\fig*](migtsema40.mp3)
+\pc [\fig migtsema25.jpg\fig*](migtsema41.mp3)
+\pc [\fig migtsema26.jpg\fig*](migtsema42.mp3)
+\pc [\fig migtsema27.jpg\fig*](migtsema43.mp3)
 
 \page 7
 \m 🔊 པར་རིས་སྟེང་བསྣུན་ནས་སྒྲ་ལ་ཉོན། ཐེངས་གསུམ་རེ་ཀློག
-\m [\fig migtsema28.jpg\fig*](migtsema44.mp3)
-\m [\fig migtsema29.jpg\fig*](migtsema45.mp3)
-\m [\fig migtsema30.jpg\fig*](migtsema46.mp3)
-\m [\fig migtsema31.jpg\fig*](migtsema47.mp3)
+\pc [\fig migtsema28.jpg\fig*](migtsema44.mp3)
+\pc [\fig migtsema29.jpg\fig*](migtsema45.mp3)
+\pc [\fig migtsema30.jpg\fig*](migtsema46.mp3)
+\pc [\fig migtsema31.jpg\fig*](migtsema47.mp3)
