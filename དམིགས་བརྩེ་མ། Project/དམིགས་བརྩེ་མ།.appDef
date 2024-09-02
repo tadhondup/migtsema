@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<app-definition type="RAB" program-version="10.2">
+<app-definition type="RAB" program-version="11.0.2">
   <project-name>དམིགས་བརྩེ་མ།</project-name>
   <project-description></project-description>
 
@@ -16,6 +16,10 @@
   <ipa-container-url></ipa-container-url>
   <ipa-app-type>dedicated</ipa-app-type>
   <ipa-container-audio>false</ipa-container-audio>
+
+  <pwa-manifest name="" short-name="">
+    <pwa-text lang="null" direction="LTR"/>
+  </pwa-manifest>
 
   <signing>
     <keystore>C:\Users\Dhondup\Documents\App Builder\keystore\keystore1.keystore</keystore>
@@ -264,9 +268,8 @@
     <feature name="wj-enabled" value="false"/>
     <feature name="show-red-letters" value="true"/>
     <feature name="show-glossary-words" value="true"/>
-    <feature name="show-footnotes" value="true"/>
-    <feature name="show-cross-refs" value="true"/>
     <feature name="show-illustrations" value="true"/>
+    <feature name="zoom-illustrations" value="true"/>
     <feature name="resize-illustrations" value="true"/>
     <feature name="resize-illustrations-width" value="300"/>
     <feature name="backgrounds-crop" value="true"/>
@@ -282,10 +285,6 @@
     <feature name="hide-empty-verses" value="false"/>
     <feature name="hide-empty-chapters" value="true"/>
     <feature name="hide-verse-number-1" value="true"/>
-    <feature name="footnote-caller-type" value="default"/>
-    <feature name="footnote-caller-symbol" value=""/>
-    <feature name="crossref-caller-type" value="default"/>
-    <feature name="crossref-caller-symbol" value=""/>
     <feature name="verse-of-the-day" value="false"/>
     <feature name="verse-of-the-day-default" value="false"/>
     <feature name="verse-of-the-day-time" value="12:00"/>
@@ -413,6 +412,14 @@
       <feature name="ref-extra-material" value=""/>
       <feature name="ref-parse-introductions" value="false"/>
       <feature name="ref-parse-glossary" value="false"/>
+      <feature name="show-footnotes" value="true"/>
+      <feature name="footnote-caller-type" value="default"/>
+      <feature name="footnote-caller-symbol" value=""/>
+      <feature name="footnote-caller-no-caller-to-auto" value="true"/>
+      <feature name="show-cross-refs" value="true"/>
+      <feature name="crossref-caller-type" value="default"/>
+      <feature name="crossref-caller-symbol" value=""/>
+      <feature name="crossref-caller-no-caller-to-auto" value="true"/>
       <feature name="numerals-type" value="default"/>
       <feature name="bc-allow-single-pane" value="true"/>
       <feature name="bc-allow-copy-text" value="true"/>
@@ -423,6 +430,10 @@
       <feature name="bc-allow-verse-of-the-day" value="true"/>
       <feature name="bc-allow-share-audio" value="false"/>
       <feature name="bc-allow-share-video" value="false"/>
+      <feature name="study-bible-explanatory-text-box" value="false"/>
+      <feature name="study-bible-explanatory-text-collapsible" value="false"/>
+      <feature name="study-bible-sidebars-collapsible" value="true"/>
+      <feature name="study-bible-footnote-keyword-links" value="true"/>
     </features>
 
     <styles-info>
@@ -437,6 +448,8 @@
       </styles>
     </styles-info>
 
+    <font-choice type="all" />
+
     <writing-system code="bo">
       <display-names>
         <form lang="default">Tibetan</form>
@@ -445,6 +458,8 @@
 
     <book id="B001" type="story">
       <name>སྦྱོར་ཀློག</name>
+
+      <font-choice type="book-collection" />
       <filename>migtsema.txt</filename>
       <source>C:\github\migtsema\text files\migtsema.txt</source>
 
@@ -459,16 +474,6 @@
       <page num="2">
         <image-filename>migtsema03.jpg</image-filename>
       </page>
-      <page num="3">
-      </page>
-      <page num="4">
-      </page>
-      <page num="5">
-      </page>
-      <page num="6">
-      </page>
-      <page num="7">
-      </page>
 
       <features type="book">
         <feature name="lock-orientation" value="none"/>
@@ -477,12 +482,16 @@
 
     <book id="B002" type="quiz">
       <name></name>
+
+      <font-choice type="book-collection" />
       <filename>migtsema03.txt</filename>
       <source>C:\github\migtsema\text files\migtsema03.txt</source>
     </book>
 
     <book id="B003" type="story">
       <name>བསྡོམས་ཀློག</name>
+
+      <font-choice type="book-collection" />
       <filename>migtsema01.txt</filename>
       <source>C:\github\migtsema\text files\migtsema01.txt</source>
 
@@ -508,12 +517,16 @@
 
     <book id="B004" type="quiz">
       <name></name>
+
+      <font-choice type="book-collection" />
       <filename>migtsema04.txt</filename>
       <source>C:\github\migtsema\text files\migtsema04.txt</source>
     </book>
 
     <book id="B005" type="story">
       <name>དབྱངས་གྱེར།</name>
+
+      <font-choice type="book-collection" />
       <filename>migtsema02.txt</filename>
       <source>C:\github\migtsema\text files\migtsema02.txt</source>
 
@@ -543,6 +556,8 @@
 
     <book id="B006" type="quiz">
       <name></name>
+
+      <font-choice type="book-collection" />
       <filename>migtsema05.txt</filename>
       <source>C:\github\migtsema\text files\migtsema05.txt</source>
     </book>
@@ -2309,6 +2324,9 @@
       <translation lang="en">Messages</translation>
       <translation lang="fr">Messages</translation>
       <translation lang="bo">འཕྲིན་ཐུང་།</translation>
+    </translation-mapping>
+    <translation-mapping id="Notification_Channel_Name_Media_Player">
+      <translation lang="en">Media Player</translation>
     </translation-mapping>
     <translation-mapping id="Notification_Channel_Name_Daily_Reminder">
       <translation lang="en">Daily Reminder</translation>
